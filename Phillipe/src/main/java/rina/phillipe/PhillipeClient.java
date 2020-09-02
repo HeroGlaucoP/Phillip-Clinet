@@ -8,6 +8,8 @@ import net.minecraftforge.fml.common.Mod;
 
 import me.zero.alpine.EventManager;
 import me.zero.alpine.EventBus;
+import rina.phillipe.event.EventClientManager;
+import rina.phillipe.modules.ModuleManager;
 
 /**
  *
@@ -23,6 +25,25 @@ public class PhillipeClient {
 
 	public static final EventBus ZERO_ALPINE_EVENT_MANAGER = new EventManager();
 
+	@Mod.Instance
+	private static PhillipeClient INSTANCE;
+
+	private ModuleManager modulemanager;
+
+	private EventClientManager eventManager;
+
 	@Mod.EventHandler
-	public void initClient(FMLInitializationEvent event) {}
+	public void initClient(FMLInitializationEvent event) {
+		modulemanager = new ModuleManager();
+		eventManager = new EventClientManager();
+
+		MinecraftForge.EVENT_BUS.register(eventManager);
+	}
+
+	public ModuleManager getModuleManager() {
+		return INSTANCE.modulemanager;
+	}
+	public EventClientManager getEventClientManager() {
+		return INSTANCE.eventManager;
+	}
 }
