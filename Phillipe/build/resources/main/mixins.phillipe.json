@@ -1,0 +1,7 @@
+{
+	"required"           : true,
+	"compatibilityLevel" : "JAVA_8",
+	"package"            : "rina.phillipe.mixin",
+	"refmap"             : "mixins.phillipe.refmap.json",
+	"mixins"             : []
+}

@@ -1,0 +1,10 @@
+Unsupposrted library path: C:\Users\SrRina\Documents\Phillip-Clinet\Phillipe\build\classes\api
+Unsupposrted library path: C:\Users\SrRina\Documents\Phillip-Clinet\Phillipe\build\resources\api
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "rina/phillipe/PhillipeClient.java" md5: 6ec78445e3afb563927963040346a879
+endProcessing "rina/phillipe/PhillipeClient.java"
+
+startProcessing "rina/phillipe/mixin/MixinLoader.java" md5: b76e0985fce22ca451dfe3301d8b5f53
+endProcessing "rina/phillipe/mixin/MixinLoader.java"
+
