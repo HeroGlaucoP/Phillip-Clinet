@@ -14,7 +14,6 @@ import org.spongepowered.asm.mixin.Mixins;
 // Java.
 import java.util.Map;
 
-
 /**
  *
  * @author Rinakk
