@@ -6,3 +6,5 @@ Muito incrivel.
 Pra rodar é só rodar o build.py ou build-linux.py.
 Se não der certo vai se fuder.
 Agradecimento extremamente especial ao rina por ter feito a base e estar me ensinando a fazer os bagulho.
+# Quem nao tem é randomico.
+# quem chora nao tme kkkkkkkkkkkkkkkkkkkkkkkkkkkkk piroquinha mole
