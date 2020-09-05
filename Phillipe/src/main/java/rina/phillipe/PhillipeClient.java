@@ -20,8 +20,8 @@ import rina.phillipe.modules.ModuleManager;
  **/
 @Mod(modid = "phillipe", name = PhillipeClient.NAME, version = PhillipeClient.VERSION)
 public class PhillipeClient {
-	public static final String NAME    = "Phillipe";
-	public static final String VERSION = "0.1";
+	public static final String NAME    = "1pop";
+	public static final String VERSION = "0.2";
 
 	public static final EventBus ZERO_ALPINE_EVENT_MANAGER = new EventManager();
 
