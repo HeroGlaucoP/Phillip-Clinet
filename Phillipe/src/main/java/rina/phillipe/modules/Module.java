@@ -52,7 +52,7 @@ public class Module {
     }
 
     public enum Category {
-        Combat, Movement;
+        Combat, Movement, Render, Player, World, Misc;
     }
 
     public String getName() {
