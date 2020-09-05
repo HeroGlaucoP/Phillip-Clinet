@@ -9,7 +9,7 @@ class Compile:
 
                 import shutil
                 try:
-                        shutil.copyfile("Phillipe/build/libs/phillipe-0.1-all.jar", "~/.minecraft/mods/phillipe-0.1.jar")
+                        shutil.copyfile("Phillipe/build/libs/phillipe-0.1-all.jar", "/home/glauco/.minecraft/mods/phillipe-0.1.jar")
                         print("Copiadokkk")
                 except:
                         print("Ta sem o lib fodase")

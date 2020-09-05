@@ -1,0 +1,82 @@
+Processing 8 files
+Start Processing: rina/phillipe/PhillipeClient.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.fml.common.Mod
+Import: me.zero.alpine.EventManager
+Import: me.zero.alpine.EventBus
+Import: rina.phillipe.event.EventClientManager
+Import: rina.phillipe.modules.ModuleManager
+End  Processing: rina/phillipe/PhillipeClient.java
+
+Start Processing: rina/phillipe/command/Command.java
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[263,275]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[692,698]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[706,717]::sendMessage->func_145747_a
+Rename field net/minecraft/client/Minecraft/player[881,887]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[895,906]::sendMessage->func_145747_a
+Rename field net/minecraft/client/Minecraft/player[1951,1957]::player->field_71439_g
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[1965,1976]::sendMessage->func_145747_a
+Import: com.mojang.realmsclient.gui.ChatFormatting
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.util.text.TextComponentString
+Import: java.awt.*
+End  Processing: rina/phillipe/command/Command.java
+
+Start Processing: rina/phillipe/event/EventClientManager.java
+New Key: class net/minecraftforge/fml/common/gameevent/TickEvent
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[736,748]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[751,757]::player->field_71439_g
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.eventhandler.EventPriority
+Import: net.minecraft.network.play.server.SPacketPlayerListItem
+Import: net.minecraftforge.event.entity.living.LivingEvent
+Import: net.minecraftforge.fml.common.gameevent.InputEvent
+Import: net.minecraftforge.fml.common.gameevent.TickEvent
+Import: net.minecraft.client.renderer.GlStateManager
+Import: net.minecraft.entity.passive.AbstractHorse
+Import: net.minecraftforge.client.event.*
+Import: net.minecraft.client.Minecraft
+End  Processing: rina/phillipe/event/EventClientManager.java
+
+Start Processing: rina/phillipe/mixin/MixinLoader.java
+FOUND CONSTR method rina/phillipe/mixin/MixinLoader/MixinLoader ()V rina/phillipe/mixin/MixinLoader
+Import: net.minecraftforge.fml.relauncher.IFMLLoadingPlugin
+Adding 4 imports
+        java.util.Map
+        javax.annotation.Nullable
+        org.spongepowered.asm.launch.MixinBootstrap
+        org.spongepowered.asm.mixin.Mixins
+End  Processing: rina/phillipe/mixin/MixinLoader.java
+
+Start Processing: rina/phillipe/modules/Module.java
+FOUND CONSTR method rina/phillipe/modules/Module/Module (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V rina/phillipe/modules/Module
+Import: rina.phillipe.PhillipeClient
+End  Processing: rina/phillipe/modules/Module.java
+
+Start Processing: rina/phillipe/modules/ModuleManager.java
+FOUND CONSTR method rina/phillipe/modules/ModuleManager/ModuleManager ()V rina/phillipe/modules/ModuleManager
+Import: java.util.ArrayList
+Import: rina.phillipe.modules.Module
+End  Processing: rina/phillipe/modules/ModuleManager.java
+
+Start Processing: rina/phillipe/settings/Setting.java
+FOUND CONSTR method rina/phillipe/settings/Setting/Setting (Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V rina/phillipe/settings/Setting
+FOUND CONSTR method rina/phillipe/settings/Setting/Setting (Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V rina/phillipe/settings/Setting
+FOUND CONSTR method rina/phillipe/settings/Setting/Setting (Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V rina/phillipe/settings/Setting
+FOUND CONSTR method rina/phillipe/settings/Setting/Setting (Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V rina/phillipe/settings/Setting
+FOUND CONSTR method rina/phillipe/settings/Setting/Setting (Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V rina/phillipe/settings/Setting
+Import: java.awt.*
+Import: java.util.ArrayList
+Import: rina.phillipe.modules.Module
+End  Processing: rina/phillipe/settings/Setting.java
+
+Start Processing: rina/phillipe/settings/SettingsManager.java
+FOUND CONSTR method rina/phillipe/settings/SettingsManager/SettingsManager ()V rina/phillipe/settings/SettingsManager
+Import: java.util.ArrayList
+Import: rina.phillipe.modules.Module
+End  Processing: rina/phillipe/settings/SettingsManager.java
+

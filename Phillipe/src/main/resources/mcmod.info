@@ -1,12 +1,12 @@
 [{
-	"modid"        : "phillipe",
-	"name"         : "Phillipe",
+	"modid"        : "1pop",
+	"name"         : "1pop",
 	"description"  : "incesto insano",
-	"version"      : "0.0.0.1",	
+	"version"      : "0.0.0.2",
 	"mcversion"    : "1.12.2-14.23.5.2772",
-	"url"          : "e",
-	"updateUrl"    : "e",
-	"authorList"   : ["Shadow, Cherosin, Hero, Tupi."],
+	"url"          : "penis.com",
+	"updateUrl"    : "penis.com",
+	"authorList"   : ["Hero (fez a maior parte), cherosin (cool kid) e Shadow (linux gang)"],
 	"credits"      : "Rina",
 	"screenshots"  : [],
 	"dependencies" : []

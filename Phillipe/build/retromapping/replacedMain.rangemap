@@ -1,0 +1,814 @@
+Unsupposrted library path: /home/glauco/GitHub/Phillip-Clinet/Phillipe/build/classes/java/api
+Unsupposrted library path: /home/glauco/GitHub/Phillip-Clinet/Phillipe/build/resources/api
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "rina/phillipe/PhillipeClient.java" md5: e1ebed32591a2d14ed3d9790fde96a93
+@|rina/phillipe/PhillipeClient.java|8|21|rina.phillipe|package|rina.phillipe|(file)
+Class Start: rina.phillipe.PhillipeClient
+   @|rina/phillipe/PhillipeClient.java|498|501|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|rina/phillipe/PhillipeClient.java|502|507|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|rina/phillipe/PhillipeClient.java|518|522|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|rina/phillipe/PhillipeClient.java|525|539|PhillipeClient|class|rina.phillipe.PhillipeClient|false
+   @|rina/phillipe/PhillipeClient.java|540|544|NAME|field|rina.phillipe.PhillipeClient|NAME
+   @|rina/phillipe/PhillipeClient.java|546|553|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|rina/phillipe/PhillipeClient.java|556|570|PhillipeClient|class|rina.phillipe.PhillipeClient|false
+   @|rina/phillipe/PhillipeClient.java|571|578|VERSION|field|rina.phillipe.PhillipeClient|VERSION
+   @|rina/phillipe/PhillipeClient.java|593|607|PhillipeClient|class|rina.phillipe.PhillipeClient|false
+   @|rina/phillipe/PhillipeClient.java|631|637|String|class|java.lang.String|false
+   @|rina/phillipe/PhillipeClient.java|631|637|String|class|java.lang.String|false
+   @|rina/phillipe/PhillipeClient.java|638|642|NAME|field|rina.phillipe.PhillipeClient|NAME|
+   @|rina/phillipe/PhillipeClient.java|677|683|String|class|java.lang.String|false
+   @|rina/phillipe/PhillipeClient.java|677|683|String|class|java.lang.String|false
+   @|rina/phillipe/PhillipeClient.java|684|691|VERSION|field|rina.phillipe.PhillipeClient|VERSION|
+   @|rina/phillipe/PhillipeClient.java|723|731|EventBus|class|me.zero.alpine.EventBus|false
+   @|rina/phillipe/PhillipeClient.java|723|731|EventBus|class|me.zero.alpine.EventBus|false
+   @|rina/phillipe/PhillipeClient.java|732|757|ZERO_ALPINE_EVENT_MANAGER|field|rina.phillipe.PhillipeClient|ZERO_ALPINE_EVENT_MANAGER|
+   @|rina/phillipe/PhillipeClient.java|764|776|EventManager|class|me.zero.alpine.EventManager|false
+   @|rina/phillipe/PhillipeClient.java|812|826|PhillipeClient|class|rina.phillipe.PhillipeClient|false
+   @|rina/phillipe/PhillipeClient.java|783|795|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|rina/phillipe/PhillipeClient.java|812|826|PhillipeClient|class|rina.phillipe.PhillipeClient|false
+   @|rina/phillipe/PhillipeClient.java|827|835|INSTANCE|field|rina.phillipe.PhillipeClient|INSTANCE|
+   @|rina/phillipe/PhillipeClient.java|847|860|ModuleManager|class|rina.phillipe.modules.ModuleManager|false
+   @|rina/phillipe/PhillipeClient.java|847|860|ModuleManager|class|rina.phillipe.modules.ModuleManager|false
+   @|rina/phillipe/PhillipeClient.java|861|874|modulemanager|field|rina.phillipe.PhillipeClient|modulemanager|
+   @|rina/phillipe/PhillipeClient.java|886|904|EventClientManager|class|rina.phillipe.event.EventClientManager|false
+   @|rina/phillipe/PhillipeClient.java|886|904|EventClientManager|class|rina.phillipe.event.EventClientManager|false
+   @|rina/phillipe/PhillipeClient.java|905|917|eventManager|field|rina.phillipe.PhillipeClient|eventManager|
+   Method Start: initClient(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|rina/phillipe/PhillipeClient.java|986|991|event|param|rina.phillipe.PhillipeClient|initClient|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|rina/phillipe/PhillipeClient.java|922|938|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|rina/phillipe/PhillipeClient.java|952|962|initClient|method|rina.phillipe.PhillipeClient|initClient|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|rina/phillipe/PhillipeClient.java|963|985|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|rina/phillipe/PhillipeClient.java|997|1010|modulemanager|field|rina.phillipe.PhillipeClient|modulemanager
+      @|rina/phillipe/PhillipeClient.java|1017|1030|ModuleManager|class|rina.phillipe.modules.ModuleManager|false
+      @|rina/phillipe/PhillipeClient.java|1036|1048|eventManager|field|rina.phillipe.PhillipeClient|eventManager
+      @|rina/phillipe/PhillipeClient.java|1055|1073|EventClientManager|class|rina.phillipe.event.EventClientManager|false
+      @|rina/phillipe/PhillipeClient.java|1080|1094|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|rina/phillipe/PhillipeClient.java|1095|1104|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|rina/phillipe/PhillipeClient.java|1105|1113|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|rina/phillipe/PhillipeClient.java|1114|1126|eventManager|field|rina.phillipe.PhillipeClient|eventManager
+   Method End: initClient(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: getModuleManager()Lrina/phillipe/modules/ModuleManager;
+      @|rina/phillipe/PhillipeClient.java|1141|1154|ModuleManager|class|rina.phillipe.modules.ModuleManager|false
+      @|rina/phillipe/PhillipeClient.java|1155|1171|getModuleManager|method|rina.phillipe.PhillipeClient|getModuleManager|()Lrina/phillipe/modules/ModuleManager;
+      @|rina/phillipe/PhillipeClient.java|1185|1193|INSTANCE|field|rina.phillipe.PhillipeClient|INSTANCE
+      @|rina/phillipe/PhillipeClient.java|1194|1207|modulemanager|field|rina.phillipe.PhillipeClient|modulemanager
+   Method End: getModuleManager()Lrina/phillipe/modules/ModuleManager;
+   Method Start: getEventClientManager()Lrina/phillipe/event/EventClientManager;
+      @|rina/phillipe/PhillipeClient.java|1220|1238|EventClientManager|class|rina.phillipe.event.EventClientManager|false
+      @|rina/phillipe/PhillipeClient.java|1239|1260|getEventClientManager|method|rina.phillipe.PhillipeClient|getEventClientManager|()Lrina/phillipe/event/EventClientManager;
+      @|rina/phillipe/PhillipeClient.java|1274|1282|INSTANCE|field|rina.phillipe.PhillipeClient|INSTANCE
+      @|rina/phillipe/PhillipeClient.java|1283|1295|eventManager|field|rina.phillipe.PhillipeClient|eventManager
+   Method End: getEventClientManager()Lrina/phillipe/event/EventClientManager;
+Class End  : rina.phillipe.PhillipeClient
+endProcessing "rina/phillipe/PhillipeClient.java"
+
+startProcessing "rina/phillipe/command/Command.java" md5: a41e62e852e9a6021dba5c8eb4f0a203
+@|rina/phillipe/command/Command.java|8|29|rina.phillipe.command|package|rina.phillipe.command|(file)
+Class Start: rina.phillipe.command.Command
+   @|rina/phillipe/command/Command.java|217|224|Command|class|rina.phillipe.command.Command|false
+   @|rina/phillipe/command/Command.java|238|247|Minecraft|class|net.minecraft.client.Minecraft|false
+   @|rina/phillipe/command/Command.java|238|247|Minecraft|class|net.minecraft.client.Minecraft|false
+   @|rina/phillipe/command/Command.java|248|250|mc|field|rina.phillipe.command.Command|mc|
+   @|rina/phillipe/command/Command.java|253|262|Minecraft|class|net.minecraft.client.Minecraft|false
+   @|rina/phillipe/command/Command.java|263|275|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|rina/phillipe/command/Command.java|297|303|String|class|java.lang.String|false
+   @|rina/phillipe/command/Command.java|297|303|String|class|java.lang.String|false
+   @|rina/phillipe/command/Command.java|304|310|prefix|field|rina.phillipe.command.Command|prefix|
+   Method Start: getAlias()[Ljava/lang/String;
+      @|rina/phillipe/command/Command.java|338|344|String|class|java.lang.String|false
+      @|rina/phillipe/command/Command.java|347|355|getAlias|method|rina.phillipe.command.Command|getAlias|()[Ljava/lang/String;
+   Method End: getAlias()[Ljava/lang/String;
+   Method Start: getSyntax()Ljava/lang/String;
+      @|rina/phillipe/command/Command.java|379|385|String|class|java.lang.String|false
+      @|rina/phillipe/command/Command.java|386|395|getSyntax|method|rina.phillipe.command.Command|getSyntax|()Ljava/lang/String;
+   Method End: getSyntax()Ljava/lang/String;
+   Method Start: onCommand(Ljava/lang/String;[Ljava/lang/String;)V
+      @|rina/phillipe/command/Command.java|441|448|command|param|rina.phillipe.command.Command|onCommand|(Ljava/lang/String;[Ljava/lang/String;)V|command|0
+      @|rina/phillipe/command/Command.java|459|463|args|param|rina.phillipe.command.Command|onCommand|(Ljava/lang/String;[Ljava/lang/String;)V|args|1
+      @|rina/phillipe/command/Command.java|424|433|onCommand|method|rina.phillipe.command.Command|onCommand|(Ljava/lang/String;[Ljava/lang/String;)V
+      @|rina/phillipe/command/Command.java|434|440|String|class|java.lang.String|false
+      @|rina/phillipe/command/Command.java|450|456|String|class|java.lang.String|false
+      @|rina/phillipe/command/Command.java|472|481|Exception|class|java.lang.Exception|false
+   Method End: onCommand(Ljava/lang/String;[Ljava/lang/String;)V
+   @|rina/phillipe/command/Command.java|510|522|MsgWaterMark|field|rina.phillipe.command.Command|MsgWaterMark|
+   @|rina/phillipe/command/Command.java|549|563|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+   @|rina/phillipe/command/Command.java|549|563|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+   @|rina/phillipe/command/Command.java|564|566|cf|field|rina.phillipe.command.Command|cf|
+   @|rina/phillipe/command/Command.java|569|583|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+   @|rina/phillipe/command/Command.java|584|589|WHITE|field|com.mojang.realmsclient.gui.ChatFormatting|WHITE
+   Method Start: sentClientMessage(Ljava/lang/String;)V
+      @|rina/phillipe/command/Command.java|640|647|message|param|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V|message|0
+      @|rina/phillipe/command/Command.java|615|632|sentClientMessage|method|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V
+      @|rina/phillipe/command/Command.java|633|639|String|class|java.lang.String|false
+      @|rina/phillipe/command/Command.java|663|675|MsgWaterMark|field|rina.phillipe.command.Command|MsgWaterMark
+      @|rina/phillipe/command/Command.java|689|691|mc|field|rina.phillipe.command.Command|mc
+      @|rina/phillipe/command/Command.java|692|698|player|field|net.minecraft.client.Minecraft|player
+      @|rina/phillipe/command/Command.java|699|710|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|rina/phillipe/command/Command.java|715|734|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+      @|rina/phillipe/command/Command.java|735|749|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|750|754|GRAY|field|com.mojang.realmsclient.gui.ChatFormatting|GRAY
+      @|rina/phillipe/command/Command.java|763|777|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|778|781|RED|field|com.mojang.realmsclient.gui.ChatFormatting|RED
+      @|rina/phillipe/command/Command.java|800|814|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|815|819|GRAY|field|com.mojang.realmsclient.gui.ChatFormatting|GRAY
+      @|rina/phillipe/command/Command.java|828|830|cf|field|rina.phillipe.command.Command|cf
+      @|rina/phillipe/command/Command.java|833|840|message|param|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V|message|0
+      @|rina/phillipe/command/Command.java|869|871|mc|field|rina.phillipe.command.Command|mc
+      @|rina/phillipe/command/Command.java|872|878|player|field|net.minecraft.client.Minecraft|player
+      @|rina/phillipe/command/Command.java|879|890|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|rina/phillipe/command/Command.java|895|914|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+      @|rina/phillipe/command/Command.java|915|917|cf|field|rina.phillipe.command.Command|cf
+      @|rina/phillipe/command/Command.java|920|927|message|param|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V|message|0
+   Method End: sentClientMessage(Ljava/lang/String;)V
+   Method Start: getColorFromChatFormatting(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;
+      @|rina/phillipe/command/Command.java|1003|1005|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|955|960|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|961|987|getColorFromChatFormatting|method|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;
+      @|rina/phillipe/command/Command.java|988|1002|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1021|1023|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1027|1041|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1042|1047|BLACK|field|com.mojang.realmsclient.gui.ChatFormatting|BLACK
+      @|rina/phillipe/command/Command.java|1056|1061|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1062|1067|BLACK|field|java.awt.Color|BLACK
+      @|rina/phillipe/command/Command.java|1081|1083|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1087|1101|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1102|1106|GRAY|field|com.mojang.realmsclient.gui.ChatFormatting|GRAY
+      @|rina/phillipe/command/Command.java|1115|1120|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1121|1125|GRAY|field|java.awt.Color|GRAY
+      @|rina/phillipe/command/Command.java|1139|1141|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1145|1159|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1160|1164|AQUA|field|com.mojang.realmsclient.gui.ChatFormatting|AQUA
+      @|rina/phillipe/command/Command.java|1173|1178|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1179|1183|CYAN|field|java.awt.Color|CYAN
+      @|rina/phillipe/command/Command.java|1197|1199|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1203|1217|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1218|1222|BLUE|field|com.mojang.realmsclient.gui.ChatFormatting|BLUE
+      @|rina/phillipe/command/Command.java|1226|1228|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1232|1246|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1247|1256|DARK_BLUE|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_BLUE
+      @|rina/phillipe/command/Command.java|1260|1262|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1266|1280|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1281|1290|DARK_AQUA|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_AQUA
+      @|rina/phillipe/command/Command.java|1311|1316|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1317|1321|BLUE|field|java.awt.Color|BLUE
+      @|rina/phillipe/command/Command.java|1335|1337|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1341|1355|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1356|1365|DARK_GRAY|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_GRAY
+      @|rina/phillipe/command/Command.java|1374|1379|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1380|1389|DARK_GRAY|field|java.awt.Color|DARK_GRAY
+      @|rina/phillipe/command/Command.java|1403|1405|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1409|1423|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1424|1434|DARK_GREEN|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_GREEN
+      @|rina/phillipe/command/Command.java|1438|1440|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1444|1458|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1459|1464|GREEN|field|com.mojang.realmsclient.gui.ChatFormatting|GREEN
+      @|rina/phillipe/command/Command.java|1473|1478|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1479|1484|GREEN|field|java.awt.Color|GREEN
+      @|rina/phillipe/command/Command.java|1498|1500|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1504|1518|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1519|1530|DARK_PURPLE|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_PURPLE
+      @|rina/phillipe/command/Command.java|1539|1544|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1545|1552|MAGENTA|field|java.awt.Color|MAGENTA
+      @|rina/phillipe/command/Command.java|1566|1568|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1572|1586|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1587|1590|RED|field|com.mojang.realmsclient.gui.ChatFormatting|RED
+      @|rina/phillipe/command/Command.java|1594|1596|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1600|1614|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1615|1623|DARK_RED|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_RED
+      @|rina/phillipe/command/Command.java|1632|1637|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1638|1641|RED|field|java.awt.Color|RED
+      @|rina/phillipe/command/Command.java|1655|1657|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1661|1675|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1676|1688|LIGHT_PURPLE|field|com.mojang.realmsclient.gui.ChatFormatting|LIGHT_PURPLE
+      @|rina/phillipe/command/Command.java|1697|1702|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1703|1707|PINK|field|java.awt.Color|PINK
+      @|rina/phillipe/command/Command.java|1721|1723|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1727|1741|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1742|1748|YELLOW|field|com.mojang.realmsclient.gui.ChatFormatting|YELLOW
+      @|rina/phillipe/command/Command.java|1757|1762|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1763|1769|YELLOW|field|java.awt.Color|YELLOW
+      @|rina/phillipe/command/Command.java|1783|1785|cf|param|rina.phillipe.command.Command|getColorFromChatFormatting|(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;|cf|0
+      @|rina/phillipe/command/Command.java|1789|1803|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/Command.java|1804|1808|GOLD|field|com.mojang.realmsclient.gui.ChatFormatting|GOLD
+      @|rina/phillipe/command/Command.java|1817|1822|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1823|1829|ORANGE|field|java.awt.Color|ORANGE
+      @|rina/phillipe/command/Command.java|1846|1851|Color|class|java.awt.Color|false
+      @|rina/phillipe/command/Command.java|1852|1857|WHITE|field|java.awt.Color|WHITE
+   Method End: getColorFromChatFormatting(Lcom/mojang/realmsclient/gui/ChatFormatting;)Ljava/awt/Color;
+   Method Start: sendRawMessage(Ljava/lang/String;)V
+      @|rina/phillipe/command/Command.java|1911|1918|message|param|rina.phillipe.command.Command|sendRawMessage|(Ljava/lang/String;)V|message|0
+      @|rina/phillipe/command/Command.java|1889|1903|sendRawMessage|method|rina.phillipe.command.Command|sendRawMessage|(Ljava/lang/String;)V
+      @|rina/phillipe/command/Command.java|1904|1910|String|class|java.lang.String|false
+      @|rina/phillipe/command/Command.java|1930|1932|mc|field|rina.phillipe.command.Command|mc
+      @|rina/phillipe/command/Command.java|1933|1939|player|field|net.minecraft.client.Minecraft|player
+      @|rina/phillipe/command/Command.java|1940|1951|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|rina/phillipe/command/Command.java|1956|1975|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+      @|rina/phillipe/command/Command.java|1976|1983|message|param|rina.phillipe.command.Command|sendRawMessage|(Ljava/lang/String;)V|message|0
+   Method End: sendRawMessage(Ljava/lang/String;)V
+   Method Start: getPrefix()Ljava/lang/String;
+      @|rina/phillipe/command/Command.java|2012|2018|String|class|java.lang.String|false
+      @|rina/phillipe/command/Command.java|2019|2028|getPrefix|method|rina.phillipe.command.Command|getPrefix|()Ljava/lang/String;
+      @|rina/phillipe/command/Command.java|2048|2054|prefix|field|rina.phillipe.command.Command|prefix
+   Method End: getPrefix()Ljava/lang/String;
+   Method Start: setPrefix(Ljava/lang/String;)V
+      @|rina/phillipe/command/Command.java|2103|2104|p|param|rina.phillipe.command.Command|setPrefix|(Ljava/lang/String;)V|p|0
+      @|rina/phillipe/command/Command.java|2086|2095|setPrefix|method|rina.phillipe.command.Command|setPrefix|(Ljava/lang/String;)V
+      @|rina/phillipe/command/Command.java|2096|2102|String|class|java.lang.String|false
+      @|rina/phillipe/command/Command.java|2116|2122|prefix|field|rina.phillipe.command.Command|prefix
+      @|rina/phillipe/command/Command.java|2125|2126|p|param|rina.phillipe.command.Command|setPrefix|(Ljava/lang/String;)V|p|0
+   Method End: setPrefix(Ljava/lang/String;)V
+Class End  : rina.phillipe.command.Command
+endProcessing "rina/phillipe/command/Command.java"
+
+startProcessing "rina/phillipe/event/EventClientManager.java" md5: e68016f02397c6a1871896e6568169bc
+@|rina/phillipe/event/EventClientManager.java|8|27|rina.phillipe.event|package|rina.phillipe.event|(file)
+Class Start: rina.phillipe.event.EventClientManager
+   @|rina/phillipe/event/EventClientManager.java|615|633|EventClientManager|class|rina.phillipe.event.EventClientManager|false
+   Method Start: onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|rina/phillipe/event/EventClientManager.java|705|710|event|param|rina.phillipe.event.EventClientManager|onTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|rina/phillipe/event/EventClientManager.java|641|655|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|rina/phillipe/event/EventClientManager.java|672|678|onTick|method|rina.phillipe.event.EventClientManager|onTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|rina/phillipe/event/EventClientManager.java|679|704|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent|false
+      @|rina/phillipe/event/EventClientManager.java|726|735|Minecraft|class|net.minecraft.client.Minecraft|false
+      @|rina/phillipe/event/EventClientManager.java|736|748|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|rina/phillipe/event/EventClientManager.java|751|757|player|field|net.minecraft.client.Minecraft|player
+   Method End: onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+Class End  : rina.phillipe.event.EventClientManager
+endProcessing "rina/phillipe/event/EventClientManager.java"
+
+startProcessing "rina/phillipe/mixin/MixinLoader.java" md5: 76ba58897fd7c7d0efdf9645414e1081
+@|rina/phillipe/mixin/MixinLoader.java|8|27|rina.phillipe.mixin|package|rina.phillipe.mixin|(file)
+Class Start: rina.phillipe.mixin.MixinLoader
+   @|rina/phillipe/mixin/MixinLoader.java|430|441|MixinLoader|class|rina.phillipe.mixin.MixinLoader|false
+   @|rina/phillipe/mixin/MixinLoader.java|453|470|IFMLLoadingPlugin|class|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|false
+   Method Start: MixinLoader()V
+      @|rina/phillipe/mixin/MixinLoader.java|481|492|MixinLoader|method|rina.phillipe.mixin.MixinLoader|MixinLoader|()V
+      @|rina/phillipe/mixin/MixinLoader.java|499|513|MixinBootstrap|class|org.spongepowered.asm.launch.MixinBootstrap|false
+      @|rina/phillipe/mixin/MixinLoader.java|514|518|init|method|org.spongepowered.asm.launch.MixinBootstrap|init|()V
+      @|rina/phillipe/mixin/MixinLoader.java|525|531|Mixins|class|org.spongepowered.asm.mixin.Mixins|false
+      @|rina/phillipe/mixin/MixinLoader.java|532|548|addConfiguration|method|org.spongepowered.asm.mixin.Mixins|addConfiguration|(Ljava/lang/String;)V
+   Method End: MixinLoader()V
+   Method Start: getASMTransformerClass()[Ljava/lang/String;
+      @|rina/phillipe/mixin/MixinLoader.java|660|668|Override|class|java.lang.Override|false
+      @|rina/phillipe/mixin/MixinLoader.java|677|683|String|class|java.lang.String|false
+      @|rina/phillipe/mixin/MixinLoader.java|686|708|getASMTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getASMTransformerClass|()[Ljava/lang/String;
+      @|rina/phillipe/mixin/MixinLoader.java|726|732|String|class|java.lang.String|false
+   Method End: getASMTransformerClass()[Ljava/lang/String;
+   Method Start: getModContainerClass()Ljava/lang/String;
+      @|rina/phillipe/mixin/MixinLoader.java|743|751|Override|class|java.lang.Override|false
+      @|rina/phillipe/mixin/MixinLoader.java|760|766|String|class|java.lang.String|false
+      @|rina/phillipe/mixin/MixinLoader.java|767|787|getModContainerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getModContainerClass|()Ljava/lang/String;
+   Method End: getModContainerClass()Ljava/lang/String;
+   Method Start: getSetupClass()Ljava/lang/String;
+      @|rina/phillipe/mixin/MixinLoader.java|813|821|Nullable|class|javax.annotation.Nullable|false
+      @|rina/phillipe/mixin/MixinLoader.java|824|832|Override|class|java.lang.Override|false
+      @|rina/phillipe/mixin/MixinLoader.java|841|847|String|class|java.lang.String|false
+      @|rina/phillipe/mixin/MixinLoader.java|848|861|getSetupClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getSetupClass|()Ljava/lang/String;
+   Method End: getSetupClass()Ljava/lang/String;
+   Method Start: injectData(Ljava/util/Map;)V
+      @|rina/phillipe/mixin/MixinLoader.java|940|944|data|param|rina.phillipe.mixin.MixinLoader|injectData|(Ljava/util/Map;)V|data|0
+      @|rina/phillipe/mixin/MixinLoader.java|887|895|Override|class|java.lang.Override|false
+      @|rina/phillipe/mixin/MixinLoader.java|909|919|injectData|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|injectData|(Ljava/util/Map;)V
+      @|rina/phillipe/mixin/MixinLoader.java|920|923|Map|class|java.util.Map|false
+      @|rina/phillipe/mixin/MixinLoader.java|924|930|String|class|java.lang.String|false
+      @|rina/phillipe/mixin/MixinLoader.java|932|938|Object|class|java.lang.Object|false
+   Method End: injectData(Ljava/util/Map;)V
+   Method Start: getAccessTransformerClass()Ljava/lang/String;
+      @|rina/phillipe/mixin/MixinLoader.java|952|960|Override|class|java.lang.Override|false
+      @|rina/phillipe/mixin/MixinLoader.java|969|975|String|class|java.lang.String|false
+      @|rina/phillipe/mixin/MixinLoader.java|976|1001|getAccessTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getAccessTransformerClass|()Ljava/lang/String;
+   Method End: getAccessTransformerClass()Ljava/lang/String;
+Class End  : rina.phillipe.mixin.MixinLoader
+endProcessing "rina/phillipe/mixin/MixinLoader.java"
+
+startProcessing "rina/phillipe/modules/Module.java" md5: 42ea1b9da3c763c303f094c4281312f1
+@|rina/phillipe/modules/Module.java|8|29|rina.phillipe.modules|package|rina.phillipe.modules|(file)
+Class Start: rina.phillipe.modules.Module
+   @|rina/phillipe/modules/Module.java|83|89|Module|class|rina.phillipe.modules.Module|false
+   @|rina/phillipe/modules/Module.java|113|118|state|field|rina.phillipe.modules.Module|state|
+   @|rina/phillipe/modules/Module.java|132|138|String|class|java.lang.String|false
+   @|rina/phillipe/modules/Module.java|132|138|String|class|java.lang.String|false
+   @|rina/phillipe/modules/Module.java|139|143|name|field|rina.phillipe.modules.Module|name|
+   @|rina/phillipe/modules/Module.java|157|163|String|class|java.lang.String|false
+   @|rina/phillipe/modules/Module.java|157|163|String|class|java.lang.String|false
+   @|rina/phillipe/modules/Module.java|164|167|tag|field|rina.phillipe.modules.Module|tag|
+   @|rina/phillipe/modules/Module.java|181|187|String|class|java.lang.String|false
+   @|rina/phillipe/modules/Module.java|181|187|String|class|java.lang.String|false
+   @|rina/phillipe/modules/Module.java|188|199|description|field|rina.phillipe.modules.Module|description|
+   @|rina/phillipe/modules/Module.java|213|221|Category|class|rina.phillipe.modules.Module.Category|false
+   @|rina/phillipe/modules/Module.java|213|221|Category|class|rina.phillipe.modules.Module.Category|false
+   @|rina/phillipe/modules/Module.java|222|230|category|field|rina.phillipe.modules.Module|category|
+   @|rina/phillipe/modules/Module.java|248|255|keybind|field|rina.phillipe.modules.Module|keybind|
+   Method Start: Module(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V
+      @|rina/phillipe/modules/Module.java|283|287|name|param|rina.phillipe.modules.Module|Module|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V|name|0
+      @|rina/phillipe/modules/Module.java|296|299|tag|param|rina.phillipe.modules.Module|Module|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V|tag|1
+      @|rina/phillipe/modules/Module.java|308|319|description|param|rina.phillipe.modules.Module|Module|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V|description|2
+      @|rina/phillipe/modules/Module.java|330|338|category|param|rina.phillipe.modules.Module|Module|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V|category|3
+      @|rina/phillipe/modules/Module.java|269|275|Module|method|rina.phillipe.modules.Module|Module|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V
+      @|rina/phillipe/modules/Module.java|276|282|String|class|java.lang.String|false
+      @|rina/phillipe/modules/Module.java|289|295|String|class|java.lang.String|false
+      @|rina/phillipe/modules/Module.java|301|307|String|class|java.lang.String|false
+      @|rina/phillipe/modules/Module.java|321|329|Category|class|rina.phillipe.modules.Module.Category|false
+      @|rina/phillipe/modules/Module.java|355|359|name|field|rina.phillipe.modules.Module|name
+      @|rina/phillipe/modules/Module.java|362|366|name|param|rina.phillipe.modules.Module|Module|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V|name|0
+      @|rina/phillipe/modules/Module.java|381|384|tag|field|rina.phillipe.modules.Module|tag
+      @|rina/phillipe/modules/Module.java|387|390|tag|param|rina.phillipe.modules.Module|Module|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V|tag|1
+      @|rina/phillipe/modules/Module.java|405|416|description|field|rina.phillipe.modules.Module|description
+      @|rina/phillipe/modules/Module.java|419|430|description|param|rina.phillipe.modules.Module|Module|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V|description|2
+      @|rina/phillipe/modules/Module.java|445|453|category|field|rina.phillipe.modules.Module|category
+      @|rina/phillipe/modules/Module.java|456|464|category|param|rina.phillipe.modules.Module|Module|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V|category|3
+      @|rina/phillipe/modules/Module.java|479|486|keybind|field|rina.phillipe.modules.Module|keybind
+      @|rina/phillipe/modules/Module.java|506|511|state|field|rina.phillipe.modules.Module|state
+   Method End: Module(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V
+   Method Start: onUpdate()V
+      @|rina/phillipe/modules/Module.java|544|552|onUpdate|method|rina.phillipe.modules.Module|onUpdate|()V
+   Method End: onUpdate()V
+   Method Start: onDisable()V
+      @|rina/phillipe/modules/Module.java|574|583|onDisable|method|rina.phillipe.modules.Module|onDisable|()V
+   Method End: onDisable()V
+   Method Start: onEnable()V
+      @|rina/phillipe/modules/Module.java|605|613|onEnable|method|rina.phillipe.modules.Module|onEnable|()V
+   Method End: onEnable()V
+   Method Start: disable()V
+      @|rina/phillipe/modules/Module.java|636|643|disable|method|rina.phillipe.modules.Module|disable|()V
+      @|rina/phillipe/modules/Module.java|661|666|state|field|rina.phillipe.modules.Module|state
+      @|rina/phillipe/modules/Module.java|684|693|onDisable|method|rina.phillipe.modules.Module|onDisable|()V
+      @|rina/phillipe/modules/Module.java|705|719|PhillipeClient|class|rina.phillipe.PhillipeClient|false
+      @|rina/phillipe/modules/Module.java|720|745|ZERO_ALPINE_EVENT_MANAGER|field|rina.phillipe.PhillipeClient|ZERO_ALPINE_EVENT_MANAGER
+      @|rina/phillipe/modules/Module.java|746|757|unsubscribe|method|me.zero.alpine.EventBus|unsubscribe|(Ljava/lang/Object;)V
+   Method End: disable()V
+   Method Start: enable()V
+      @|rina/phillipe/modules/Module.java|787|793|enable|method|rina.phillipe.modules.Module|enable|()V
+      @|rina/phillipe/modules/Module.java|811|816|state|field|rina.phillipe.modules.Module|state
+      @|rina/phillipe/modules/Module.java|833|841|onEnable|method|rina.phillipe.modules.Module|onEnable|()V
+      @|rina/phillipe/modules/Module.java|853|867|PhillipeClient|class|rina.phillipe.PhillipeClient|false
+      @|rina/phillipe/modules/Module.java|868|893|ZERO_ALPINE_EVENT_MANAGER|field|rina.phillipe.PhillipeClient|ZERO_ALPINE_EVENT_MANAGER
+      @|rina/phillipe/modules/Module.java|894|903|subscribe|method|me.zero.alpine.EventBus|subscribe|(Ljava/lang/Object;)V
+   Method End: enable()V
+   Method Start: setState(Z)V
+      @|rina/phillipe/modules/Module.java|950|955|state|param|rina.phillipe.modules.Module|setState|(Z)V|state|0
+      @|rina/phillipe/modules/Module.java|933|941|setState|method|rina.phillipe.modules.Module|setState|(Z)V
+      @|rina/phillipe/modules/Module.java|971|976|state|param|rina.phillipe.modules.Module|setState|(Z)V|state|0
+      @|rina/phillipe/modules/Module.java|980|988|getState|method|rina.phillipe.modules.Module|getState|()Z
+      @|rina/phillipe/modules/Module.java|1010|1015|state|param|rina.phillipe.modules.Module|setState|(Z)V|state|0
+      @|rina/phillipe/modules/Module.java|1035|1041|enable|method|rina.phillipe.modules.Module|enable|()V
+      @|rina/phillipe/modules/Module.java|1082|1089|disable|method|rina.phillipe.modules.Module|disable|()V
+   Method End: setState(Z)V
+   Method Start: toggle()V
+      @|rina/phillipe/modules/Module.java|1139|1145|toggle|method|rina.phillipe.modules.Module|toggle|()V
+      @|rina/phillipe/modules/Module.java|1158|1166|setState|method|rina.phillipe.modules.Module|setState|(Z)V
+      @|rina/phillipe/modules/Module.java|1168|1176|getState|method|rina.phillipe.modules.Module|getState|()Z
+   Method End: toggle()V
+   Method Start: setKeybind(I)V
+      @|rina/phillipe/modules/Module.java|1219|1223|bind|param|rina.phillipe.modules.Module|setKeybind|(I)V|bind|0
+      @|rina/phillipe/modules/Module.java|1204|1214|setKeybind|method|rina.phillipe.modules.Module|setKeybind|(I)V
+      @|rina/phillipe/modules/Module.java|1240|1247|keybind|field|rina.phillipe.modules.Module|keybind
+      @|rina/phillipe/modules/Module.java|1250|1254|bind|param|rina.phillipe.modules.Module|setKeybind|(I)V|bind|0
+   Method End: setKeybind(I)V
+   Enum Start: rina.phillipe.modules.Module.Category
+      @|rina/phillipe/modules/Module.java|1279|1287|Category|class|rina.phillipe.modules.Module.Category|false
+      @|rina/phillipe/modules/Module.java|1298|1304|Combat|field|rina.phillipe.modules.Module.Category|Combat
+      @|rina/phillipe/modules/Module.java|1306|1314|Movement|field|rina.phillipe.modules.Module.Category|Movement
+      @|rina/phillipe/modules/Module.java|1316|1322|Render|field|rina.phillipe.modules.Module.Category|Render
+      @|rina/phillipe/modules/Module.java|1324|1330|Player|field|rina.phillipe.modules.Module.Category|Player
+      @|rina/phillipe/modules/Module.java|1332|1337|World|field|rina.phillipe.modules.Module.Category|World
+      @|rina/phillipe/modules/Module.java|1339|1343|Misc|field|rina.phillipe.modules.Module.Category|Misc
+   Enum End  : rina.phillipe.modules.Module.Category
+   Method Start: getName()Ljava/lang/String;
+      @|rina/phillipe/modules/Module.java|1363|1369|String|class|java.lang.String|false
+      @|rina/phillipe/modules/Module.java|1370|1377|getName|method|rina.phillipe.modules.Module|getName|()Ljava/lang/String;
+      @|rina/phillipe/modules/Module.java|1402|1406|name|field|rina.phillipe.modules.Module|name
+   Method End: getName()Ljava/lang/String;
+   Method Start: getTag()Ljava/lang/String;
+      @|rina/phillipe/modules/Module.java|1425|1431|String|class|java.lang.String|false
+      @|rina/phillipe/modules/Module.java|1432|1438|getTag|method|rina.phillipe.modules.Module|getTag|()Ljava/lang/String;
+      @|rina/phillipe/modules/Module.java|1463|1466|tag|field|rina.phillipe.modules.Module|tag
+   Method End: getTag()Ljava/lang/String;
+   Method Start: getDescription()Ljava/lang/String;
+      @|rina/phillipe/modules/Module.java|1485|1491|String|class|java.lang.String|false
+      @|rina/phillipe/modules/Module.java|1492|1506|getDescription|method|rina.phillipe.modules.Module|getDescription|()Ljava/lang/String;
+      @|rina/phillipe/modules/Module.java|1531|1542|description|field|rina.phillipe.modules.Module|description
+   Method End: getDescription()Ljava/lang/String;
+   Method Start: getCategory()Lrina/phillipe/modules/Module$Category;
+      @|rina/phillipe/modules/Module.java|1561|1569|Category|class|rina.phillipe.modules.Module.Category|false
+      @|rina/phillipe/modules/Module.java|1570|1581|getCategory|method|rina.phillipe.modules.Module|getCategory|()Lrina/phillipe/modules/Module$Category;
+      @|rina/phillipe/modules/Module.java|1606|1614|category|field|rina.phillipe.modules.Module|category
+   Method End: getCategory()Lrina/phillipe/modules/Module$Category;
+   Method Start: getKeybind()I
+      @|rina/phillipe/modules/Module.java|1637|1647|getKeybind|method|rina.phillipe.modules.Module|getKeybind|()I
+      @|rina/phillipe/modules/Module.java|1672|1679|keybind|field|rina.phillipe.modules.Module|keybind
+   Method End: getKeybind()I
+   Method Start: getState()Z
+      @|rina/phillipe/modules/Module.java|1706|1714|getState|method|rina.phillipe.modules.Module|getState|()Z
+      @|rina/phillipe/modules/Module.java|1739|1744|state|field|rina.phillipe.modules.Module|state
+   Method End: getState()Z
+Class End  : rina.phillipe.modules.Module
+endProcessing "rina/phillipe/modules/Module.java"
+
+startProcessing "rina/phillipe/modules/ModuleManager.java" md5: 8cc7bd0784d8d2da08ca155ea9a3c58d
+@|rina/phillipe/modules/ModuleManager.java|8|29|rina.phillipe.modules|package|rina.phillipe.modules|(file)
+Class Start: rina.phillipe.modules.ModuleManager
+   @|rina/phillipe/modules/ModuleManager.java|111|124|ModuleManager|class|rina.phillipe.modules.ModuleManager|false
+   @|rina/phillipe/modules/ModuleManager.java|150|156|Module|class|rina.phillipe.modules.Module|false
+   @|rina/phillipe/modules/ModuleManager.java|140|149|ArrayList|class|java.util.ArrayList|false
+   @|rina/phillipe/modules/ModuleManager.java|140|149|ArrayList|class|java.util.ArrayList|false
+   @|rina/phillipe/modules/ModuleManager.java|150|156|Module|class|rina.phillipe.modules.Module|false
+   @|rina/phillipe/modules/ModuleManager.java|158|168|moduleList|field|rina.phillipe.modules.ModuleManager|moduleList|
+   Method Start: ModuleManager()V
+      @|rina/phillipe/modules/ModuleManager.java|182|195|ModuleManager|method|rina.phillipe.modules.ModuleManager|ModuleManager|()V
+      @|rina/phillipe/modules/ModuleManager.java|213|223|moduleList|field|rina.phillipe.modules.ModuleManager|moduleList
+      @|rina/phillipe/modules/ModuleManager.java|230|239|ArrayList|class|java.util.ArrayList|false
+   Method End: ModuleManager()V
+   Method Start: addModule(Lrina/phillipe/modules/Module;)V
+      @|rina/phillipe/modules/ModuleManager.java|285|291|module|param|rina.phillipe.modules.ModuleManager|addModule|(Lrina/phillipe/modules/Module;)V|module|0
+      @|rina/phillipe/modules/ModuleManager.java|268|277|addModule|method|rina.phillipe.modules.ModuleManager|addModule|(Lrina/phillipe/modules/Module;)V
+      @|rina/phillipe/modules/ModuleManager.java|278|284|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/modules/ModuleManager.java|308|318|moduleList|field|rina.phillipe.modules.ModuleManager|moduleList
+      @|rina/phillipe/modules/ModuleManager.java|319|322|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|rina/phillipe/modules/ModuleManager.java|323|329|module|param|rina.phillipe.modules.ModuleManager|addModule|(Lrina/phillipe/modules/Module;)V|module|0
+   Method End: addModule(Lrina/phillipe/modules/Module;)V
+   Method Start: onUpdateList()V
+      @|rina/phillipe/modules/ModuleManager.java|355|367|onUpdateList|method|rina.phillipe.modules.ModuleManager|onUpdateList|()V
+      @|rina/phillipe/modules/ModuleManager.java|385|391|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/modules/ModuleManager.java|402|415|getModuleList|method|rina.phillipe.modules.ModuleManager|getModuleList|()Ljava/util/ArrayList;
+      @|rina/phillipe/modules/ModuleManager.java|445|453|getState|method|rina.phillipe.modules.Module|getState|()Z
+      @|rina/phillipe/modules/ModuleManager.java|483|491|onUpdate|method|rina.phillipe.modules.Module|onUpdate|()V
+   Method End: onUpdateList()V
+   Method Start: getModuleList()Ljava/util/ArrayList;
+      @|rina/phillipe/modules/ModuleManager.java|537|546|ArrayList|class|java.util.ArrayList|false
+      @|rina/phillipe/modules/ModuleManager.java|547|553|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/modules/ModuleManager.java|555|568|getModuleList|method|rina.phillipe.modules.ModuleManager|getModuleList|()Ljava/util/ArrayList;
+      @|rina/phillipe/modules/ModuleManager.java|588|598|moduleList|field|rina.phillipe.modules.ModuleManager|moduleList
+   Method End: getModuleList()Ljava/util/ArrayList;
+Class End  : rina.phillipe.modules.ModuleManager
+endProcessing "rina/phillipe/modules/ModuleManager.java"
+
+startProcessing "rina/phillipe/settings/Setting.java" md5: 381806417da39274890646b07cddaa2d
+@|rina/phillipe/settings/Setting.java|8|30|rina.phillipe.settings|package|rina.phillipe.settings|(file)
+Class Start: rina.phillipe.settings.Setting
+   @|rina/phillipe/settings/Setting.java|177|184|Setting|class|rina.phillipe.settings.Setting|false
+   @|rina/phillipe/settings/Setting.java|200|206|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|200|206|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|207|218|displayName|field|rina.phillipe.settings.Setting|displayName|
+   @|rina/phillipe/settings/Setting.java|232|238|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|232|238|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|239|241|id|field|rina.phillipe.settings.Setting|id|
+   @|rina/phillipe/settings/Setting.java|255|261|Module|class|rina.phillipe.modules.Module|false
+   @|rina/phillipe/settings/Setting.java|255|261|Module|class|rina.phillipe.modules.Module|false
+   @|rina/phillipe/settings/Setting.java|262|268|parent|field|rina.phillipe.settings.Setting|parent|
+   @|rina/phillipe/settings/Setting.java|282|288|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|282|288|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|289|293|mode|field|rina.phillipe.settings.Setting|mode|
+   @|rina/phillipe/settings/Setting.java|308|314|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|308|314|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|315|319|sval|field|rina.phillipe.settings.Setting|sval|
+   @|rina/phillipe/settings/Setting.java|343|349|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|333|342|ArrayList|class|java.util.ArrayList|false
+   @|rina/phillipe/settings/Setting.java|333|342|ArrayList|class|java.util.ArrayList|false
+   @|rina/phillipe/settings/Setting.java|343|349|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|351|358|options|field|rina.phillipe.settings.Setting|options|
+   @|rina/phillipe/settings/Setting.java|381|385|bval|field|rina.phillipe.settings.Setting|bval|
+   @|rina/phillipe/settings/Setting.java|407|411|dval|field|rina.phillipe.settings.Setting|dval|
+   @|rina/phillipe/settings/Setting.java|432|435|min|field|rina.phillipe.settings.Setting|min|
+   @|rina/phillipe/settings/Setting.java|456|459|max|field|rina.phillipe.settings.Setting|max|
+   @|rina/phillipe/settings/Setting.java|481|488|onlyint|field|rina.phillipe.settings.Setting|onlyint|
+   @|rina/phillipe/settings/Setting.java|511|516|Color|class|java.awt.Color|false
+   @|rina/phillipe/settings/Setting.java|511|516|Color|class|java.awt.Color|false
+   @|rina/phillipe/settings/Setting.java|517|522|color|field|rina.phillipe.settings.Setting|color|
+   @|rina/phillipe/settings/Setting.java|537|543|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|537|543|String|class|java.lang.String|false
+   @|rina/phillipe/settings/Setting.java|544|553|customval|field|rina.phillipe.settings.Setting|customval|
+   Method Start: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|582|593|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|602|608|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|617|621|sval|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|sval|2
+      @|rina/phillipe/settings/Setting.java|641|648|options|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|options|3
+      @|rina/phillipe/settings/Setting.java|657|659|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|id|4
+      @|rina/phillipe/settings/Setting.java|567|574|Setting|method|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|575|581|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|595|601|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/settings/Setting.java|610|616|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|623|632|ArrayList|class|java.util.ArrayList|false
+      @|rina/phillipe/settings/Setting.java|633|639|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|650|656|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|676|687|displayName|field|rina.phillipe.settings.Setting|displayName
+      @|rina/phillipe/settings/Setting.java|690|701|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|716|722|parent|field|rina.phillipe.settings.Setting|parent
+      @|rina/phillipe/settings/Setting.java|725|731|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|746|750|sval|field|rina.phillipe.settings.Setting|sval
+      @|rina/phillipe/settings/Setting.java|753|757|sval|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|sval|2
+      @|rina/phillipe/settings/Setting.java|772|779|options|field|rina.phillipe.settings.Setting|options
+      @|rina/phillipe/settings/Setting.java|782|789|options|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|options|3
+      @|rina/phillipe/settings/Setting.java|804|808|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|833|835|id|field|rina.phillipe.settings.Setting|id
+      @|rina/phillipe/settings/Setting.java|838|840|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V|id|4
+   Method End: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V
+   Method Start: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|875|886|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|895|901|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|911|915|bval|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V|bval|2
+      @|rina/phillipe/settings/Setting.java|924|926|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V|id|3
+      @|rina/phillipe/settings/Setting.java|860|867|Setting|method|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|868|874|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|888|894|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/settings/Setting.java|917|923|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|943|954|displayName|field|rina.phillipe.settings.Setting|displayName
+      @|rina/phillipe/settings/Setting.java|957|968|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|983|989|parent|field|rina.phillipe.settings.Setting|parent
+      @|rina/phillipe/settings/Setting.java|992|998|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|1013|1017|bval|field|rina.phillipe.settings.Setting|bval
+      @|rina/phillipe/settings/Setting.java|1020|1024|bval|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V|bval|2
+      @|rina/phillipe/settings/Setting.java|1039|1043|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|1068|1070|id|field|rina.phillipe.settings.Setting|id
+      @|rina/phillipe/settings/Setting.java|1073|1075|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V|id|3
+   Method End: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;ZLjava/lang/String;)V
+   Method Start: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|1110|1121|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|1130|1136|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|1145|1149|dval|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|dval|2
+      @|rina/phillipe/settings/Setting.java|1158|1161|min|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|min|3
+      @|rina/phillipe/settings/Setting.java|1170|1173|max|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|max|4
+      @|rina/phillipe/settings/Setting.java|1183|1190|onlyint|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|onlyint|5
+      @|rina/phillipe/settings/Setting.java|1199|1201|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|id|6
+      @|rina/phillipe/settings/Setting.java|1095|1102|Setting|method|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|1103|1109|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|1123|1129|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/settings/Setting.java|1192|1198|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|1218|1229|displayName|field|rina.phillipe.settings.Setting|displayName
+      @|rina/phillipe/settings/Setting.java|1232|1243|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|1258|1264|parent|field|rina.phillipe.settings.Setting|parent
+      @|rina/phillipe/settings/Setting.java|1267|1273|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|1288|1292|dval|field|rina.phillipe.settings.Setting|dval
+      @|rina/phillipe/settings/Setting.java|1295|1299|dval|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|dval|2
+      @|rina/phillipe/settings/Setting.java|1314|1317|min|field|rina.phillipe.settings.Setting|min
+      @|rina/phillipe/settings/Setting.java|1320|1323|min|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|min|3
+      @|rina/phillipe/settings/Setting.java|1338|1341|max|field|rina.phillipe.settings.Setting|max
+      @|rina/phillipe/settings/Setting.java|1344|1347|max|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|max|4
+      @|rina/phillipe/settings/Setting.java|1362|1369|onlyint|field|rina.phillipe.settings.Setting|onlyint
+      @|rina/phillipe/settings/Setting.java|1372|1379|onlyint|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|onlyint|5
+      @|rina/phillipe/settings/Setting.java|1394|1398|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|1424|1426|id|field|rina.phillipe.settings.Setting|id
+      @|rina/phillipe/settings/Setting.java|1429|1431|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V|id|6
+   Method End: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;DDDZLjava/lang/String;)V
+   Method Start: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|1466|1477|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|1486|1492|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|1500|1505|color|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V|color|2
+      @|rina/phillipe/settings/Setting.java|1514|1516|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V|id|3
+      @|rina/phillipe/settings/Setting.java|1451|1458|Setting|method|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|1459|1465|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|1479|1485|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/settings/Setting.java|1494|1499|Color|class|java.awt.Color|false
+      @|rina/phillipe/settings/Setting.java|1507|1513|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|1533|1544|displayName|field|rina.phillipe.settings.Setting|displayName
+      @|rina/phillipe/settings/Setting.java|1547|1558|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|1573|1579|parent|field|rina.phillipe.settings.Setting|parent
+      @|rina/phillipe/settings/Setting.java|1582|1588|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|1603|1608|color|field|rina.phillipe.settings.Setting|color
+      @|rina/phillipe/settings/Setting.java|1611|1616|color|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V|color|2
+      @|rina/phillipe/settings/Setting.java|1631|1635|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|1666|1668|id|field|rina.phillipe.settings.Setting|id
+      @|rina/phillipe/settings/Setting.java|1671|1673|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V|id|3
+   Method End: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/awt/Color;Ljava/lang/String;)V
+   Method Start: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|1708|1719|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|1728|1734|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|1743|1752|customval|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V|customval|2
+      @|rina/phillipe/settings/Setting.java|1761|1763|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V|id|3
+      @|rina/phillipe/settings/Setting.java|1693|1700|Setting|method|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|1701|1707|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|1721|1727|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/settings/Setting.java|1736|1742|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|1754|1760|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|1780|1791|displayName|field|rina.phillipe.settings.Setting|displayName
+      @|rina/phillipe/settings/Setting.java|1794|1805|displayName|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V|displayName|0
+      @|rina/phillipe/settings/Setting.java|1820|1826|parent|field|rina.phillipe.settings.Setting|parent
+      @|rina/phillipe/settings/Setting.java|1829|1835|parent|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V|parent|1
+      @|rina/phillipe/settings/Setting.java|1850|1859|customval|field|rina.phillipe.settings.Setting|customval
+      @|rina/phillipe/settings/Setting.java|1862|1871|customval|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V|customval|2
+      @|rina/phillipe/settings/Setting.java|1886|1890|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|1921|1923|id|field|rina.phillipe.settings.Setting|id
+      @|rina/phillipe/settings/Setting.java|1926|1928|id|param|rina.phillipe.settings.Setting|Setting|(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V|id|3
+   Method End: Setting(Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: getDisplayName()Ljava/lang/String;
+      @|rina/phillipe/settings/Setting.java|1948|1954|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|1955|1969|getDisplayName|method|rina.phillipe.settings.Setting|getDisplayName|()Ljava/lang/String;
+      @|rina/phillipe/settings/Setting.java|1989|2000|displayName|field|rina.phillipe.settings.Setting|displayName
+   Method End: getDisplayName()Ljava/lang/String;
+   Method Start: getId()Ljava/lang/String;
+      @|rina/phillipe/settings/Setting.java|2020|2026|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|2027|2032|getId|method|rina.phillipe.settings.Setting|getId|()Ljava/lang/String;
+      @|rina/phillipe/settings/Setting.java|2052|2054|id|field|rina.phillipe.settings.Setting|id
+   Method End: getId()Ljava/lang/String;
+   Method Start: getParentMod()Lrina/phillipe/modules/Module;
+      @|rina/phillipe/settings/Setting.java|2074|2080|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/settings/Setting.java|2081|2093|getParentMod|method|rina.phillipe.settings.Setting|getParentMod|()Lrina/phillipe/modules/Module;
+      @|rina/phillipe/settings/Setting.java|2113|2119|parent|field|rina.phillipe.settings.Setting|parent
+   Method End: getParentMod()Lrina/phillipe/modules/Module;
+   Method Start: getValString()Ljava/lang/String;
+      @|rina/phillipe/settings/Setting.java|2139|2145|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|2146|2158|getValString|method|rina.phillipe.settings.Setting|getValString|()Ljava/lang/String;
+      @|rina/phillipe/settings/Setting.java|2183|2187|sval|field|rina.phillipe.settings.Setting|sval
+   Method End: getValString()Ljava/lang/String;
+   Method Start: setValString(Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|2232|2234|in|param|rina.phillipe.settings.Setting|setValString|(Ljava/lang/String;)V|in|0
+      @|rina/phillipe/settings/Setting.java|2212|2224|setValString|method|rina.phillipe.settings.Setting|setValString|(Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|2225|2231|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|2251|2255|sval|field|rina.phillipe.settings.Setting|sval
+      @|rina/phillipe/settings/Setting.java|2258|2260|in|param|rina.phillipe.settings.Setting|setValString|(Ljava/lang/String;)V|in|0
+   Method End: setValString(Ljava/lang/String;)V
+   Method Start: getOptions()Ljava/util/ArrayList;
+      @|rina/phillipe/settings/Setting.java|2280|2289|ArrayList|class|java.util.ArrayList|false
+      @|rina/phillipe/settings/Setting.java|2290|2296|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|2298|2308|getOptions|method|rina.phillipe.settings.Setting|getOptions|()Ljava/util/ArrayList;
+      @|rina/phillipe/settings/Setting.java|2333|2340|options|field|rina.phillipe.settings.Setting|options
+   Method End: getOptions()Ljava/util/ArrayList;
+   Method Start: getValBoolean()Z
+      @|rina/phillipe/settings/Setting.java|2368|2381|getValBoolean|method|rina.phillipe.settings.Setting|getValBoolean|()Z
+      @|rina/phillipe/settings/Setting.java|2406|2410|bval|field|rina.phillipe.settings.Setting|bval
+   Method End: getValBoolean()Z
+   Method Start: setValBoolean(Z)V
+      @|rina/phillipe/settings/Setting.java|2457|2459|in|param|rina.phillipe.settings.Setting|setValBoolean|(Z)V|in|0
+      @|rina/phillipe/settings/Setting.java|2435|2448|setValBoolean|method|rina.phillipe.settings.Setting|setValBoolean|(Z)V
+      @|rina/phillipe/settings/Setting.java|2476|2480|bval|field|rina.phillipe.settings.Setting|bval
+      @|rina/phillipe/settings/Setting.java|2483|2485|in|param|rina.phillipe.settings.Setting|setValBoolean|(Z)V|in|0
+   Method End: setValBoolean(Z)V
+   Method Start: getValDouble()D
+      @|rina/phillipe/settings/Setting.java|2512|2524|getValDouble|method|rina.phillipe.settings.Setting|getValDouble|()D
+      @|rina/phillipe/settings/Setting.java|2546|2553|onlyint|field|rina.phillipe.settings.Setting|onlyint
+      @|rina/phillipe/settings/Setting.java|2574|2578|dval|field|rina.phillipe.settings.Setting|dval
+      @|rina/phillipe/settings/Setting.java|2586|2590|dval|field|rina.phillipe.settings.Setting|dval
+      @|rina/phillipe/settings/Setting.java|2622|2626|dval|field|rina.phillipe.settings.Setting|dval
+   Method End: getValDouble()D
+   Method Start: getValInt()I
+      @|rina/phillipe/settings/Setting.java|2650|2659|getValInt|method|rina.phillipe.settings.Setting|getValInt|()I
+      @|rina/phillipe/settings/Setting.java|2684|2696|getValDouble|method|rina.phillipe.settings.Setting|getValDouble|()D
+   Method End: getValInt()I
+   Method Start: setValDouble(D)V
+      @|rina/phillipe/settings/Setting.java|2743|2745|in|param|rina.phillipe.settings.Setting|setValDouble|(D)V|in|0
+      @|rina/phillipe/settings/Setting.java|2723|2735|setValDouble|method|rina.phillipe.settings.Setting|setValDouble|(D)V
+      @|rina/phillipe/settings/Setting.java|2762|2766|dval|field|rina.phillipe.settings.Setting|dval
+      @|rina/phillipe/settings/Setting.java|2769|2771|in|param|rina.phillipe.settings.Setting|setValDouble|(D)V|in|0
+   Method End: setValDouble(D)V
+   Method Start: getMin()D
+      @|rina/phillipe/settings/Setting.java|2798|2804|getMin|method|rina.phillipe.settings.Setting|getMin|()D
+      @|rina/phillipe/settings/Setting.java|2829|2832|min|field|rina.phillipe.settings.Setting|min
+   Method End: getMin()D
+   Method Start: getMax()D
+      @|rina/phillipe/settings/Setting.java|2859|2865|getMax|method|rina.phillipe.settings.Setting|getMax|()D
+      @|rina/phillipe/settings/Setting.java|2890|2893|max|field|rina.phillipe.settings.Setting|max
+   Method End: getMax()D
+   Method Start: isCombo()Z
+      @|rina/phillipe/settings/Setting.java|2921|2928|isCombo|method|rina.phillipe.settings.Setting|isCombo|()Z
+      @|rina/phillipe/settings/Setting.java|2953|2957|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|2958|2974|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+   Method End: isCombo()Z
+   Method Start: isCheck()Z
+      @|rina/phillipe/settings/Setting.java|3011|3018|isCheck|method|rina.phillipe.settings.Setting|isCheck|()Z
+      @|rina/phillipe/settings/Setting.java|3043|3047|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|3048|3064|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+   Method End: isCheck()Z
+   Method Start: isSlider()Z
+      @|rina/phillipe/settings/Setting.java|3101|3109|isSlider|method|rina.phillipe.settings.Setting|isSlider|()Z
+      @|rina/phillipe/settings/Setting.java|3134|3138|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|3139|3155|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+   Method End: isSlider()Z
+   Method Start: isColorPicker()Z
+      @|rina/phillipe/settings/Setting.java|3193|3206|isColorPicker|method|rina.phillipe.settings.Setting|isColorPicker|()Z
+      @|rina/phillipe/settings/Setting.java|3226|3230|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|3231|3247|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+   Method End: isColorPicker()Z
+   Method Start: isCustomString()Z
+      @|rina/phillipe/settings/Setting.java|3290|3304|isCustomString|method|rina.phillipe.settings.Setting|isCustomString|()Z
+      @|rina/phillipe/settings/Setting.java|3324|3328|mode|field|rina.phillipe.settings.Setting|mode
+      @|rina/phillipe/settings/Setting.java|3329|3345|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+   Method End: isCustomString()Z
+   Method Start: onlyInt()Z
+      @|rina/phillipe/settings/Setting.java|3389|3396|onlyInt|method|rina.phillipe.settings.Setting|onlyInt|()Z
+      @|rina/phillipe/settings/Setting.java|3421|3428|onlyint|field|rina.phillipe.settings.Setting|onlyint
+   Method End: onlyInt()Z
+   Method Start: getValColor()Ljava/awt/Color;
+      @|rina/phillipe/settings/Setting.java|3448|3453|Color|class|java.awt.Color|false
+      @|rina/phillipe/settings/Setting.java|3454|3465|getValColor|method|rina.phillipe.settings.Setting|getValColor|()Ljava/awt/Color;
+      @|rina/phillipe/settings/Setting.java|3485|3490|color|field|rina.phillipe.settings.Setting|color
+   Method End: getValColor()Ljava/awt/Color;
+   Method Start: setValColor(Ljava/awt/Color;)V
+      @|rina/phillipe/settings/Setting.java|3533|3541|newColor|param|rina.phillipe.settings.Setting|setValColor|(Ljava/awt/Color;)V|newColor|0
+      @|rina/phillipe/settings/Setting.java|3515|3526|setValColor|method|rina.phillipe.settings.Setting|setValColor|(Ljava/awt/Color;)V
+      @|rina/phillipe/settings/Setting.java|3527|3532|Color|class|java.awt.Color|false
+      @|rina/phillipe/settings/Setting.java|3553|3558|color|field|rina.phillipe.settings.Setting|color
+      @|rina/phillipe/settings/Setting.java|3561|3569|newColor|param|rina.phillipe.settings.Setting|setValColor|(Ljava/awt/Color;)V|newColor|0
+   Method End: setValColor(Ljava/awt/Color;)V
+   Method Start: getColorRed()I
+      @|rina/phillipe/settings/Setting.java|3593|3604|getColorRed|method|rina.phillipe.settings.Setting|getColorRed|()I
+      @|rina/phillipe/settings/Setting.java|3624|3629|color|field|rina.phillipe.settings.Setting|color
+      @|rina/phillipe/settings/Setting.java|3630|3636|getRed|method|java.awt.Color|getRed|()I
+   Method End: getColorRed()I
+   Method Start: getColorGreen()I
+      @|rina/phillipe/settings/Setting.java|3661|3674|getColorGreen|method|rina.phillipe.settings.Setting|getColorGreen|()I
+      @|rina/phillipe/settings/Setting.java|3694|3699|color|field|rina.phillipe.settings.Setting|color
+      @|rina/phillipe/settings/Setting.java|3700|3708|getGreen|method|java.awt.Color|getGreen|()I
+   Method End: getColorGreen()I
+   Method Start: getColorBlue()I
+      @|rina/phillipe/settings/Setting.java|3733|3745|getColorBlue|method|rina.phillipe.settings.Setting|getColorBlue|()I
+      @|rina/phillipe/settings/Setting.java|3765|3770|color|field|rina.phillipe.settings.Setting|color
+      @|rina/phillipe/settings/Setting.java|3771|3778|getBlue|method|java.awt.Color|getBlue|()I
+   Method End: getColorBlue()I
+   Method Start: getColorRgb()I
+      @|rina/phillipe/settings/Setting.java|3803|3814|getColorRgb|method|rina.phillipe.settings.Setting|getColorRgb|()I
+      @|rina/phillipe/settings/Setting.java|3834|3839|color|field|rina.phillipe.settings.Setting|color
+      @|rina/phillipe/settings/Setting.java|3840|3846|getRGB|method|java.awt.Color|getRGB|()I
+   Method End: getColorRgb()I
+   Method Start: getCustomval()Ljava/lang/String;
+      @|rina/phillipe/settings/Setting.java|3867|3873|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|3874|3886|getCustomval|method|rina.phillipe.settings.Setting|getCustomval|()Ljava/lang/String;
+      @|rina/phillipe/settings/Setting.java|3906|3915|customval|field|rina.phillipe.settings.Setting|customval
+   Method End: getCustomval()Ljava/lang/String;
+   Method Start: setCustomval(Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|3959|3968|newString|param|rina.phillipe.settings.Setting|setCustomval|(Ljava/lang/String;)V|newString|0
+      @|rina/phillipe/settings/Setting.java|3939|3951|setCustomval|method|rina.phillipe.settings.Setting|setCustomval|(Ljava/lang/String;)V
+      @|rina/phillipe/settings/Setting.java|3952|3958|String|class|java.lang.String|false
+      @|rina/phillipe/settings/Setting.java|3980|3989|customval|field|rina.phillipe.settings.Setting|customval
+      @|rina/phillipe/settings/Setting.java|3992|4001|newString|param|rina.phillipe.settings.Setting|setCustomval|(Ljava/lang/String;)V|newString|0
+   Method End: setCustomval(Ljava/lang/String;)V
+Class End  : rina.phillipe.settings.Setting
+endProcessing "rina/phillipe/settings/Setting.java"
+
+startProcessing "rina/phillipe/settings/SettingsManager.java" md5: efdee3c24726f2e71822e9d04592fd66
+@|rina/phillipe/settings/SettingsManager.java|8|30|rina.phillipe.settings|package|rina.phillipe.settings|(file)
+Class Start: rina.phillipe.settings.SettingsManager
+   @|rina/phillipe/settings/SettingsManager.java|179|194|SettingsManager|class|rina.phillipe.settings.SettingsManager|false
+   @|rina/phillipe/settings/SettingsManager.java|220|227|Setting|class|rina.phillipe.settings.Setting|false
+   @|rina/phillipe/settings/SettingsManager.java|210|219|ArrayList|class|java.util.ArrayList|false
+   @|rina/phillipe/settings/SettingsManager.java|210|219|ArrayList|class|java.util.ArrayList|false
+   @|rina/phillipe/settings/SettingsManager.java|220|227|Setting|class|rina.phillipe.settings.Setting|false
+   @|rina/phillipe/settings/SettingsManager.java|229|237|settings|field|rina.phillipe.settings.SettingsManager|settings|
+   Method Start: SettingsManager()V
+      @|rina/phillipe/settings/SettingsManager.java|251|266|SettingsManager|method|rina.phillipe.settings.SettingsManager|SettingsManager|()V
+      @|rina/phillipe/settings/SettingsManager.java|284|292|settings|field|rina.phillipe.settings.SettingsManager|settings
+      @|rina/phillipe/settings/SettingsManager.java|299|308|ArrayList|class|java.util.ArrayList|false
+   Method End: SettingsManager()V
+   Method Start: rSettings(Lrina/phillipe/settings/Setting;)V
+      @|rina/phillipe/settings/SettingsManager.java|355|357|in|param|rina.phillipe.settings.SettingsManager|rSettings|(Lrina/phillipe/settings/Setting;)V|in|0
+      @|rina/phillipe/settings/SettingsManager.java|337|346|rSettings|method|rina.phillipe.settings.SettingsManager|rSettings|(Lrina/phillipe/settings/Setting;)V
+      @|rina/phillipe/settings/SettingsManager.java|347|354|Setting|class|rina.phillipe.settings.Setting|false
+      @|rina/phillipe/settings/SettingsManager.java|374|382|settings|field|rina.phillipe.settings.SettingsManager|settings
+      @|rina/phillipe/settings/SettingsManager.java|383|386|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|rina/phillipe/settings/SettingsManager.java|387|389|in|param|rina.phillipe.settings.SettingsManager|rSettings|(Lrina/phillipe/settings/Setting;)V|in|0
+   Method End: rSettings(Lrina/phillipe/settings/Setting;)V
+   Method Start: getSettings()Ljava/util/ArrayList;
+      @|rina/phillipe/settings/SettingsManager.java|410|419|ArrayList|class|java.util.ArrayList|false
+      @|rina/phillipe/settings/SettingsManager.java|420|427|Setting|class|rina.phillipe.settings.Setting|false
+      @|rina/phillipe/settings/SettingsManager.java|429|440|getSettings|method|rina.phillipe.settings.SettingsManager|getSettings|()Ljava/util/ArrayList;
+      @|rina/phillipe/settings/SettingsManager.java|465|473|settings|field|rina.phillipe.settings.SettingsManager|settings
+   Method End: getSettings()Ljava/util/ArrayList;
+   Method Start: getSettingsByMod(Lrina/phillipe/modules/Module;)Ljava/util/ArrayList;
+      @|rina/phillipe/settings/SettingsManager.java|536|539|mod|param|rina.phillipe.settings.SettingsManager|getSettingsByMod|(Lrina/phillipe/modules/Module;)Ljava/util/ArrayList;|mod|0
+      @|rina/phillipe/settings/SettingsManager.java|493|502|ArrayList|class|java.util.ArrayList|false
+      @|rina/phillipe/settings/SettingsManager.java|503|510|Setting|class|rina.phillipe.settings.Setting|false
+      @|rina/phillipe/settings/SettingsManager.java|512|528|getSettingsByMod|method|rina.phillipe.settings.SettingsManager|getSettingsByMod|(Lrina/phillipe/modules/Module;)Ljava/util/ArrayList;
+      @|rina/phillipe/settings/SettingsManager.java|529|535|Module|class|rina.phillipe.modules.Module|false
+      @|rina/phillipe/settings/SettingsManager.java|551|560|ArrayList|class|java.util.ArrayList|false
+      @|rina/phillipe/settings/SettingsManager.java|561|568|Setting|class|rina.phillipe.settings.Setting|false
+      @|rina/phillipe/settings/SettingsManager.java|580|589|ArrayList|class|java.util.ArrayList|false
+      @|rina/phillipe/settings/SettingsManager.java|608|615|Setting|class|rina.phillipe.settings.Setting|false
+      @|rina/phillipe/settings/SettingsManager.java|620|631|getSettings|method|rina.phillipe.settings.SettingsManager|getSettings|()Ljava/util/ArrayList;
+      @|rina/phillipe/settings/SettingsManager.java|655|667|getParentMod|method|rina.phillipe.settings.Setting|getParentMod|()Lrina/phillipe/modules/Module;
+      @|rina/phillipe/settings/SettingsManager.java|670|676|equals|method|java.lang.Object|equals|(Ljava/lang/Object;)Z
+      @|rina/phillipe/settings/SettingsManager.java|677|680|mod|param|rina.phillipe.settings.SettingsManager|getSettingsByMod|(Lrina/phillipe/modules/Module;)Ljava/util/ArrayList;|mod|0
+      @|rina/phillipe/settings/SettingsManager.java|705|708|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: getSettingsByMod(Lrina/phillipe/modules/Module;)Ljava/util/ArrayList;
+   Method Start: getSettingByDisplayName(Ljava/lang/String;)Lrina/phillipe/settings/Setting;
+      @|rina/phillipe/settings/SettingsManager.java|814|818|name|param|rina.phillipe.settings.SettingsManager|getSettingByDisplayName|(Ljava/lang/String;)Lrina/phillipe/settings/Setting;|name|0
+      @|rina/phillipe/settings/SettingsManager.java|775|782|Setting|class|rina.phillipe.settings.Setting|false
+      @|rina/phillipe/settings/SettingsManager.java|783|806|getSettingByDisplayName|method|rina.phillipe.settings.SettingsManager|getSettingByDisplayName|(Ljava/lang/String;)Lrina/phillipe/settings/Setting;
+      @|rina/phillipe/settings/SettingsManager.java|807|813|String|class|java.lang.String|false
+      @|rina/phillipe/settings/SettingsManager.java|835|842|Setting|class|rina.phillipe.settings.Setting|false
+      @|rina/phillipe/settings/SettingsManager.java|849|860|getSettings|method|rina.phillipe.settings.SettingsManager|getSettings|()Ljava/util/ArrayList;
+      @|rina/phillipe/settings/SettingsManager.java|886|900|getDisplayName|method|rina.phillipe.settings.Setting|getDisplayName|()Ljava/lang/String;
+      @|rina/phillipe/settings/SettingsManager.java|903|919|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|rina/phillipe/settings/SettingsManager.java|920|924|name|param|rina.phillipe.settings.SettingsManager|getSettingByDisplayName|(Ljava/lang/String;)Lrina/phillipe/settings/Setting;|name|0
+      @|rina/phillipe/settings/SettingsManager.java|989|995|System|class|java.lang.System|false
+      @|rina/phillipe/settings/SettingsManager.java|996|999|err|field|java.lang.System|err
+      @|rina/phillipe/settings/SettingsManager.java|1000|1007|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|rina/phillipe/settings/SettingsManager.java|1049|1053|name|param|rina.phillipe.settings.SettingsManager|getSettingByDisplayName|(Ljava/lang/String;)Lrina/phillipe/settings/Setting;|name|0
+   Method End: getSettingByDisplayName(Ljava/lang/String;)Lrina/phillipe/settings/Setting;
+   Method Start: getSettingsByID(Ljava/lang/String;)Lrina/phillipe/settings/Setting;
+      @|rina/phillipe/settings/SettingsManager.java|1132|1134|id|param|rina.phillipe.settings.SettingsManager|getSettingsByID|(Ljava/lang/String;)Lrina/phillipe/settings/Setting;|id|0
+      @|rina/phillipe/settings/SettingsManager.java|1101|1108|Setting|class|rina.phillipe.settings.Setting|false
+      @|rina/phillipe/settings/SettingsManager.java|1109|1124|getSettingsByID|method|rina.phillipe.settings.SettingsManager|getSettingsByID|(Ljava/lang/String;)Lrina/phillipe/settings/Setting;
+      @|rina/phillipe/settings/SettingsManager.java|1125|1131|String|class|java.lang.String|false
+      @|rina/phillipe/settings/SettingsManager.java|1151|1158|Setting|class|rina.phillipe.settings.Setting|false
+      @|rina/phillipe/settings/SettingsManager.java|1163|1174|getSettings|method|rina.phillipe.settings.SettingsManager|getSettings|()Ljava/util/ArrayList;
+      @|rina/phillipe/settings/SettingsManager.java|1198|1203|getId|method|rina.phillipe.settings.Setting|getId|()Ljava/lang/String;
+      @|rina/phillipe/settings/SettingsManager.java|1206|1222|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|rina/phillipe/settings/SettingsManager.java|1223|1225|id|param|rina.phillipe.settings.SettingsManager|getSettingsByID|(Ljava/lang/String;)Lrina/phillipe/settings/Setting;|id|0
+      @|rina/phillipe/settings/SettingsManager.java|1288|1294|System|class|java.lang.System|false
+      @|rina/phillipe/settings/SettingsManager.java|1295|1298|err|field|java.lang.System|err
+      @|rina/phillipe/settings/SettingsManager.java|1299|1306|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|rina/phillipe/settings/SettingsManager.java|1348|1350|id|param|rina.phillipe.settings.SettingsManager|getSettingsByID|(Ljava/lang/String;)Lrina/phillipe/settings/Setting;|id|0
+   Method End: getSettingsByID(Ljava/lang/String;)Lrina/phillipe/settings/Setting;
+Class End  : rina.phillipe.settings.SettingsManager
+endProcessing "rina/phillipe/settings/SettingsManager.java"
+
