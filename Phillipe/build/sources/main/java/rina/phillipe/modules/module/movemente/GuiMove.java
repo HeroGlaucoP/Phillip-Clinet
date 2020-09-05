@@ -1,7 +1,7 @@
 package rina.phillipe.modules.module.movemente;
 
 import rina.phillipe.modules.Module;
-import net.minecraft.*;
+import net.minecraft.client.gui.GuiChat;
 import org.lwjgl.input.Keyboard;
 
 public class GuiMove extends Module{
@@ -25,7 +25,7 @@ public class GuiMove extends Module{
                 mc.player.rotationYaw -= 5;
             }
             if (mc.player.rotationPitch > 90) mc.player.rotationPitch = 90;
-            if (mc.player.rotationPitch < -90) mc.player.rotationPitch = -90
+            if (mc.player.rotationPitch < -90) mc.player.rotationPitch = -90;
         }
     }
 }
