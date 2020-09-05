@@ -18,7 +18,7 @@ import rina.phillipe.modules.ModuleManager;
  * Created by Rina in 02/09/2020.
  *
  **/
-@Mod(modid = "phillipe", name = PhillipeClient.NAME, version = PhillipeClient.VERSION)
+@Mod(modid = "1pop", name = PhillipeClient.NAME, version = PhillipeClient.VERSION)
 public class PhillipeClient {
 	public static final String NAME    = "1pop";
 	public static final String VERSION = "0.2";
