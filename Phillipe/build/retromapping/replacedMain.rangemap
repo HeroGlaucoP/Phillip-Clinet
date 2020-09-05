@@ -1,7 +1,7 @@
 Unsupposrted library path: /home/glauco/GitHub/Phillip-Clinet/Phillipe/build/classes/java/api
 Unsupposrted library path: /home/glauco/GitHub/Phillip-Clinet/Phillipe/build/resources/api
 Symbol range map extraction starting
-Processing 8 files
+Processing 9 files
 startProcessing "rina/phillipe/PhillipeClient.java" md5: e1ebed32591a2d14ed3d9790fde96a93
 @|rina/phillipe/PhillipeClient.java|8|21|rina.phillipe|package|rina.phillipe|(file)
 Class Start: rina.phillipe.PhillipeClient
@@ -220,6 +220,9 @@ Class Start: rina.phillipe.command.Command
    Method End: setPrefix(Ljava/lang/String;)V
 Class End  : rina.phillipe.command.Command
 endProcessing "rina/phillipe/command/Command.java"
+
+startProcessing "rina/phillipe/command/CommandManager.java" md5: d41d8cd98f00b204e9800998ecf8427e
+endProcessing "rina/phillipe/command/CommandManager.java"
 
 startProcessing "rina/phillipe/event/EventClientManager.java" md5: e68016f02397c6a1871896e6568169bc
 @|rina/phillipe/event/EventClientManager.java|8|27|rina.phillipe.event|package|rina.phillipe.event|(file)
