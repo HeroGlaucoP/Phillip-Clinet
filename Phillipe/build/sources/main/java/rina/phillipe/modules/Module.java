@@ -2,7 +2,11 @@ package rina.phillipe.modules;
 
 import rina.phillipe.PhillipeClient;
 
+import net.minecraft.client.Minecraft;
+
 public class Module {
+
+    public static final Minecraft mc = Minecraft.getMinecraft();
 
     private boolean state;
     private String name;
@@ -19,6 +23,7 @@ public class Module {
         this.keybind = -1;
         this.state = false;
     }
+
 
     public void onUpdate() {}
     public void onDisable() {}
@@ -51,8 +56,14 @@ public class Module {
         this.keybind = bind;
     }
 
-    public enum Category {
-        Combat, Movement, Render, Player, World, Misc;
+    public enum Category{
+        COMBAT,
+        PLAYER,
+        MOVEMENT,
+        MISC,
+        CHAT,
+        RENDER,
+        GUI;
     }
 
     public String getName() {
@@ -73,4 +84,8 @@ public class Module {
     public boolean getState() {
         return this.state;
     }
+    public void setDescription(String desc) {
+        description = desc;
+    }
+
 }

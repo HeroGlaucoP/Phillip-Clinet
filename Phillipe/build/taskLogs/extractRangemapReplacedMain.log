@@ -2,14 +2,11 @@ Unsupposrted library path: /home/glauco/GitHub/Phillip-Clinet/Phillipe/build/cla
 Unsupposrted library path: /home/glauco/GitHub/Phillip-Clinet/Phillipe/build/resources/api
 Symbol range map extraction starting
 Processing 9 files
-startProcessing "rina/phillipe/PhillipeClient.java" md5: e1ebed32591a2d14ed3d9790fde96a93
+startProcessing "rina/phillipe/PhillipeClient.java" md5: 7115c56faf6003fc15b5c6f6c2a9c141
 endProcessing "rina/phillipe/PhillipeClient.java"
 
 startProcessing "rina/phillipe/command/Command.java" md5: a41e62e852e9a6021dba5c8eb4f0a203
 endProcessing "rina/phillipe/command/Command.java"
-
-startProcessing "rina/phillipe/command/CommandManager.java" md5: d41d8cd98f00b204e9800998ecf8427e
-endProcessing "rina/phillipe/command/CommandManager.java"
 
 startProcessing "rina/phillipe/event/EventClientManager.java" md5: e68016f02397c6a1871896e6568169bc
 endProcessing "rina/phillipe/event/EventClientManager.java"
@@ -17,11 +14,14 @@ endProcessing "rina/phillipe/event/EventClientManager.java"
 startProcessing "rina/phillipe/mixin/MixinLoader.java" md5: 76ba58897fd7c7d0efdf9645414e1081
 endProcessing "rina/phillipe/mixin/MixinLoader.java"
 
-startProcessing "rina/phillipe/modules/Module.java" md5: 42ea1b9da3c763c303f094c4281312f1
+startProcessing "rina/phillipe/modules/Module.java" md5: a72457a5e7b4f6af2b303b65fc82a158
 endProcessing "rina/phillipe/modules/Module.java"
 
-startProcessing "rina/phillipe/modules/ModuleManager.java" md5: 8cc7bd0784d8d2da08ca155ea9a3c58d
+startProcessing "rina/phillipe/modules/ModuleManager.java" md5: b67650b27ba808eee64ba389bcdfed95
 endProcessing "rina/phillipe/modules/ModuleManager.java"
+
+startProcessing "rina/phillipe/modules/movement/Sprint.java" md5: 629c0b3d4f98671bbbf93fa3dd4250f8
+endProcessing "rina/phillipe/modules/movement/Sprint.java"
 
 startProcessing "rina/phillipe/settings/Setting.java" md5: 381806417da39274890646b07cddaa2d
 endProcessing "rina/phillipe/settings/Setting.java"

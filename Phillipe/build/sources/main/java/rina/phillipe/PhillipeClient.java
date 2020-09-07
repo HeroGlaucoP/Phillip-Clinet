@@ -10,6 +10,7 @@ import me.zero.alpine.EventManager;
 import me.zero.alpine.EventBus;
 import rina.phillipe.event.EventClientManager;
 import rina.phillipe.modules.ModuleManager;
+import rina.phillipe.settings.SettingsManager;
 
 /**
  *
@@ -31,6 +32,7 @@ public class PhillipeClient {
 	private ModuleManager modulemanager;
 
 	private EventClientManager eventManager;
+
 
 	@Mod.EventHandler
 	public void initClient(FMLInitializationEvent event) {

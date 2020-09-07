@@ -1,4 +1,4 @@
-Processing 8 files
+Processing 9 files
 Start Processing: rina/phillipe/PhillipeClient.java
 New Key: class net/minecraftforge/fml/common/Mod
 New Key: class net/minecraftforge/fml/common/Mod
@@ -10,6 +10,7 @@ Import: me.zero.alpine.EventManager
 Import: me.zero.alpine.EventBus
 Import: rina.phillipe.event.EventClientManager
 Import: rina.phillipe.modules.ModuleManager
+Import: rina.phillipe.settings.SettingsManager
 End  Processing: rina/phillipe/PhillipeClient.java
 
 Start Processing: rina/phillipe/command/Command.java
@@ -53,15 +54,30 @@ Adding 4 imports
 End  Processing: rina/phillipe/mixin/MixinLoader.java
 
 Start Processing: rina/phillipe/modules/Module.java
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[182,194]::getMinecraft->func_71410_x
 FOUND CONSTR method rina/phillipe/modules/Module/Module (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lrina/phillipe/modules/Module$Category;)V rina/phillipe/modules/Module
 Import: rina.phillipe.PhillipeClient
+Import: net.minecraft.client.Minecraft
 End  Processing: rina/phillipe/modules/Module.java
 
 Start Processing: rina/phillipe/modules/ModuleManager.java
 FOUND CONSTR method rina/phillipe/modules/ModuleManager/ModuleManager ()V rina/phillipe/modules/ModuleManager
+Import: rina.phillipe.modules.movement.Sprint
 Import: java.util.ArrayList
-Import: rina.phillipe.modules.Module
 End  Processing: rina/phillipe/modules/ModuleManager.java
+
+Start Processing: rina/phillipe/modules/movement/Sprint.java
+FOUND CONSTR method rina/phillipe/modules/movement/Sprint/Sprint ()V rina/phillipe/modules/movement/Sprint
+Rename field net/minecraft/client/Minecraft/player[270,276]::player->field_71439_g
+Rename field net/minecraft/entity/EntityLivingBase/moveForward[284,295]::moveForward->field_191988_bg
+Rename field net/minecraft/client/Minecraft/player[311,317]::player->field_71439_g
+Rename method net/minecraft/entity/Entity/isSprinting ()Z[325,336]::isSprinting->func_70051_ag
+Rename field net/minecraft/client/Minecraft/player[359,365]::player->field_71439_g
+Rename method net/minecraft/entity/Entity/setSprinting (Z)V[373,385]::setSprinting->func_70031_b
+Import: rina.phillipe.modules.Module
+Adding 1 imports
+        rina.phillipe.modules.Module.Category
+End  Processing: rina/phillipe/modules/movement/Sprint.java
 
 Start Processing: rina/phillipe/settings/Setting.java
 FOUND CONSTR method rina/phillipe/settings/Setting/Setting (Ljava/lang/String;Lrina/phillipe/modules/Module;Ljava/lang/String;Ljava/util/ArrayList;Ljava/lang/String;)V rina/phillipe/settings/Setting

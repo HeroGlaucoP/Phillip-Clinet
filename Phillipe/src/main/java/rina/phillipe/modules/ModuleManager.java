@@ -1,14 +1,19 @@
 package rina.phillipe.modules;
 
+import rina.phillipe.modules.movement.Sprint;
+
 import java.util.ArrayList;
-import rina.phillipe.modules.Module;
 
 public class ModuleManager {
 
     private ArrayList<Module> moduleList;
+    public static ArrayList<Module> modules;
 
     public ModuleManager() {
         this.moduleList = new ArrayList<>();
+        modules = new ArrayList<>();
+        moduleList = new ArrayList<>();
+        addModule(new Sprint());
     }
 
     public void addModule(Module module) {
