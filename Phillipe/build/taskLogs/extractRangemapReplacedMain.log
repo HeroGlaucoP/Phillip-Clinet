@@ -8,7 +8,7 @@ endProcessing "rina/phillipe/PhillipeClient.java"
 startProcessing "rina/phillipe/command/Command.java" md5: a41e62e852e9a6021dba5c8eb4f0a203
 endProcessing "rina/phillipe/command/Command.java"
 
-startProcessing "rina/phillipe/command/CommandManager.java" md5: e41f718eb4a3f3bb3a882a95df5900b4
+startProcessing "rina/phillipe/command/CommandManager.java" md5: 84df8ae28872d5e4f96a486fae15a203
 endProcessing "rina/phillipe/command/CommandManager.java"
 
 startProcessing "rina/phillipe/event/EventClientManager.java" md5: e68016f02397c6a1871896e6568169bc

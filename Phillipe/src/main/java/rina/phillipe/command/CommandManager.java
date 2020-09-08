@@ -8,6 +8,10 @@ public class CommandManager {
     private static ArrayList<Command> commands;
     boolean b;
 
+    public static void initCommands() {
+        commands = new ArrayList<>();
+    }
+
     public static void addCommand(Command c) {
         commands.add(c);
     }

@@ -221,7 +221,7 @@ Class Start: rina.phillipe.command.Command
 Class End  : rina.phillipe.command.Command
 endProcessing "rina/phillipe/command/Command.java"
 
-startProcessing "rina/phillipe/command/CommandManager.java" md5: e41f718eb4a3f3bb3a882a95df5900b4
+startProcessing "rina/phillipe/command/CommandManager.java" md5: 84df8ae28872d5e4f96a486fae15a203
 @|rina/phillipe/command/CommandManager.java|8|29|rina.phillipe.command|package|rina.phillipe.command|(file)
 Class Start: rina.phillipe.command.CommandManager
    @|rina/phillipe/command/CommandManager.java|126|140|CommandManager|class|rina.phillipe.command.CommandManager|false
@@ -231,56 +231,61 @@ Class Start: rina.phillipe.command.CommandManager
    @|rina/phillipe/command/CommandManager.java|172|179|Command|class|rina.phillipe.command.Command|false
    @|rina/phillipe/command/CommandManager.java|181|189|commands|field|rina.phillipe.command.CommandManager|commands|
    @|rina/phillipe/command/CommandManager.java|203|204|b|field|rina.phillipe.command.CommandManager|b|
+   Method Start: initCommands()V
+      @|rina/phillipe/command/CommandManager.java|230|242|initCommands|method|rina.phillipe.command.CommandManager|initCommands|()V
+      @|rina/phillipe/command/CommandManager.java|255|263|commands|field|rina.phillipe.command.CommandManager|commands
+      @|rina/phillipe/command/CommandManager.java|270|279|ArrayList|class|java.util.ArrayList|false
+   Method End: initCommands()V
    Method Start: addCommand(Lrina/phillipe/command/Command;)V
-      @|rina/phillipe/command/CommandManager.java|249|250|c|param|rina.phillipe.command.CommandManager|addCommand|(Lrina/phillipe/command/Command;)V|c|0
-      @|rina/phillipe/command/CommandManager.java|230|240|addCommand|method|rina.phillipe.command.CommandManager|addCommand|(Lrina/phillipe/command/Command;)V
-      @|rina/phillipe/command/CommandManager.java|241|248|Command|class|rina.phillipe.command.Command|false
-      @|rina/phillipe/command/CommandManager.java|262|270|commands|field|rina.phillipe.command.CommandManager|commands
-      @|rina/phillipe/command/CommandManager.java|271|274|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|rina/phillipe/command/CommandManager.java|275|276|c|param|rina.phillipe.command.CommandManager|addCommand|(Lrina/phillipe/command/Command;)V|c|0
+      @|rina/phillipe/command/CommandManager.java|334|335|c|param|rina.phillipe.command.CommandManager|addCommand|(Lrina/phillipe/command/Command;)V|c|0
+      @|rina/phillipe/command/CommandManager.java|315|325|addCommand|method|rina.phillipe.command.CommandManager|addCommand|(Lrina/phillipe/command/Command;)V
+      @|rina/phillipe/command/CommandManager.java|326|333|Command|class|rina.phillipe.command.Command|false
+      @|rina/phillipe/command/CommandManager.java|347|355|commands|field|rina.phillipe.command.CommandManager|commands
+      @|rina/phillipe/command/CommandManager.java|356|359|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|rina/phillipe/command/CommandManager.java|360|361|c|param|rina.phillipe.command.CommandManager|addCommand|(Lrina/phillipe/command/Command;)V|c|0
    Method End: addCommand(Lrina/phillipe/command/Command;)V
    Method Start: getCommands()Ljava/util/ArrayList;
-      @|rina/phillipe/command/CommandManager.java|304|313|ArrayList|class|java.util.ArrayList|false
-      @|rina/phillipe/command/CommandManager.java|314|321|Command|class|rina.phillipe.command.Command|false
-      @|rina/phillipe/command/CommandManager.java|323|334|getCommands|method|rina.phillipe.command.CommandManager|getCommands|()Ljava/util/ArrayList;
-      @|rina/phillipe/command/CommandManager.java|354|362|commands|field|rina.phillipe.command.CommandManager|commands
+      @|rina/phillipe/command/CommandManager.java|389|398|ArrayList|class|java.util.ArrayList|false
+      @|rina/phillipe/command/CommandManager.java|399|406|Command|class|rina.phillipe.command.Command|false
+      @|rina/phillipe/command/CommandManager.java|408|419|getCommands|method|rina.phillipe.command.CommandManager|getCommands|()Ljava/util/ArrayList;
+      @|rina/phillipe/command/CommandManager.java|439|447|commands|field|rina.phillipe.command.CommandManager|commands
    Method End: getCommands()Ljava/util/ArrayList;
    Method Start: callCommand(Ljava/lang/String;)V
-      @|rina/phillipe/command/CommandManager.java|406|411|input|param|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V|input|0
-      @|rina/phillipe/command/CommandManager.java|387|398|callCommand|method|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V
-      @|rina/phillipe/command/CommandManager.java|399|405|String|class|java.lang.String|false
-      @|rina/phillipe/command/CommandManager.java|423|429|String|class|java.lang.String|false
-      @|rina/phillipe/command/CommandManager.java|440|445|input|param|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V|input|0
-      @|rina/phillipe/command/CommandManager.java|446|451|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
-      @|rina/phillipe/command/CommandManager.java|498|504|String|class|java.lang.String|false
-      @|rina/phillipe/command/CommandManager.java|533|539|String|class|java.lang.String|false
-      @|rina/phillipe/command/CommandManager.java|547|552|input|param|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V|input|0
-      @|rina/phillipe/command/CommandManager.java|553|562|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
-      @|rina/phillipe/command/CommandManager.java|571|577|length|method|java.lang.CharSequence|length|()I
-      @|rina/phillipe/command/CommandManager.java|581|585|trim|method|java.lang.String|trim|()Ljava/lang/String;
-      @|rina/phillipe/command/CommandManager.java|597|598|b|field|rina.phillipe.command.CommandManager|b
-      @|rina/phillipe/command/CommandManager.java|616|624|commands|field|rina.phillipe.command.CommandManager|commands
-      @|rina/phillipe/command/CommandManager.java|625|632|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
-      @|rina/phillipe/command/CommandManager.java|657|663|String|class|java.lang.String|false
-      @|rina/phillipe/command/CommandManager.java|668|669|c|param|java.util.function.Consumer<rina.phillipe.command.Command>|accept|(Lrina/phillipe/command/Command;)V|c|-1
-      @|rina/phillipe/command/CommandManager.java|670|678|getAlias|method|rina.phillipe.command.Command|getAlias|()[Ljava/lang/String;
-      @|rina/phillipe/command/CommandManager.java|706|722|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
-      @|rina/phillipe/command/CommandManager.java|755|756|b|field|rina.phillipe.command.CommandManager|b
-      @|rina/phillipe/command/CommandManager.java|815|816|c|param|java.util.function.Consumer<rina.phillipe.command.Command>|accept|(Lrina/phillipe/command/Command;)V|c|-1
-      @|rina/phillipe/command/CommandManager.java|817|826|onCommand|method|rina.phillipe.command.Command|onCommand|(Ljava/lang/String;[Ljava/lang/String;)V
-      @|rina/phillipe/command/CommandManager.java|838|843|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
-      @|rina/phillipe/command/CommandManager.java|912|921|Exception|class|java.lang.Exception|false
-      @|rina/phillipe/command/CommandManager.java|951|958|Command|class|rina.phillipe.command.Command|false
-      @|rina/phillipe/command/CommandManager.java|959|976|sentClientMessage|method|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V
-      @|rina/phillipe/command/CommandManager.java|977|991|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
-      @|rina/phillipe/command/CommandManager.java|992|1000|DARK_RED|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_RED
-      @|rina/phillipe/command/CommandManager.java|1003|1004|c|param|java.util.function.Consumer<rina.phillipe.command.Command>|accept|(Lrina/phillipe/command/Command;)V|c|-1
-      @|rina/phillipe/command/CommandManager.java|1005|1014|getSyntax|method|rina.phillipe.command.Command|getSyntax|()Ljava/lang/String;
-      @|rina/phillipe/command/CommandManager.java|1098|1099|b|field|rina.phillipe.command.CommandManager|b
-      @|rina/phillipe/command/CommandManager.java|1101|1108|Command|class|rina.phillipe.command.Command|false
-      @|rina/phillipe/command/CommandManager.java|1109|1126|sentClientMessage|method|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V
-      @|rina/phillipe/command/CommandManager.java|1127|1141|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
-      @|rina/phillipe/command/CommandManager.java|1142|1150|DARK_RED|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_RED
+      @|rina/phillipe/command/CommandManager.java|491|496|input|param|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V|input|0
+      @|rina/phillipe/command/CommandManager.java|472|483|callCommand|method|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V
+      @|rina/phillipe/command/CommandManager.java|484|490|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|508|514|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|525|530|input|param|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V|input|0
+      @|rina/phillipe/command/CommandManager.java|531|536|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|583|589|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|618|624|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|632|637|input|param|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V|input|0
+      @|rina/phillipe/command/CommandManager.java|638|647|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|656|662|length|method|java.lang.CharSequence|length|()I
+      @|rina/phillipe/command/CommandManager.java|666|670|trim|method|java.lang.String|trim|()Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|682|683|b|field|rina.phillipe.command.CommandManager|b
+      @|rina/phillipe/command/CommandManager.java|701|709|commands|field|rina.phillipe.command.CommandManager|commands
+      @|rina/phillipe/command/CommandManager.java|710|717|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|rina/phillipe/command/CommandManager.java|742|748|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|753|754|c|param|java.util.function.Consumer<rina.phillipe.command.Command>|accept|(Lrina/phillipe/command/Command;)V|c|-1
+      @|rina/phillipe/command/CommandManager.java|755|763|getAlias|method|rina.phillipe.command.Command|getAlias|()[Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|791|807|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|rina/phillipe/command/CommandManager.java|840|841|b|field|rina.phillipe.command.CommandManager|b
+      @|rina/phillipe/command/CommandManager.java|900|901|c|param|java.util.function.Consumer<rina.phillipe.command.Command>|accept|(Lrina/phillipe/command/Command;)V|c|-1
+      @|rina/phillipe/command/CommandManager.java|902|911|onCommand|method|rina.phillipe.command.Command|onCommand|(Ljava/lang/String;[Ljava/lang/String;)V
+      @|rina/phillipe/command/CommandManager.java|923|928|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|997|1006|Exception|class|java.lang.Exception|false
+      @|rina/phillipe/command/CommandManager.java|1036|1043|Command|class|rina.phillipe.command.Command|false
+      @|rina/phillipe/command/CommandManager.java|1044|1061|sentClientMessage|method|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V
+      @|rina/phillipe/command/CommandManager.java|1062|1076|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/CommandManager.java|1077|1085|DARK_RED|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_RED
+      @|rina/phillipe/command/CommandManager.java|1088|1089|c|param|java.util.function.Consumer<rina.phillipe.command.Command>|accept|(Lrina/phillipe/command/Command;)V|c|-1
+      @|rina/phillipe/command/CommandManager.java|1090|1099|getSyntax|method|rina.phillipe.command.Command|getSyntax|()Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|1183|1184|b|field|rina.phillipe.command.CommandManager|b
+      @|rina/phillipe/command/CommandManager.java|1186|1193|Command|class|rina.phillipe.command.Command|false
+      @|rina/phillipe/command/CommandManager.java|1194|1211|sentClientMessage|method|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V
+      @|rina/phillipe/command/CommandManager.java|1212|1226|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/CommandManager.java|1227|1235|DARK_RED|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_RED
    Method End: callCommand(Ljava/lang/String;)V
 Class End  : rina.phillipe.command.CommandManager
 endProcessing "rina/phillipe/command/CommandManager.java"
