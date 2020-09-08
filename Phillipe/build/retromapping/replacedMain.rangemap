@@ -1,7 +1,7 @@
 Unsupposrted library path: /home/glauco/GitHub/Phillip-Clinet/Phillipe/build/classes/java/api
 Unsupposrted library path: /home/glauco/GitHub/Phillip-Clinet/Phillipe/build/resources/api
 Symbol range map extraction starting
-Processing 9 files
+Processing 10 files
 startProcessing "rina/phillipe/PhillipeClient.java" md5: 7115c56faf6003fc15b5c6f6c2a9c141
 @|rina/phillipe/PhillipeClient.java|8|21|rina.phillipe|package|rina.phillipe|(file)
 Class Start: rina.phillipe.PhillipeClient
@@ -221,6 +221,70 @@ Class Start: rina.phillipe.command.Command
 Class End  : rina.phillipe.command.Command
 endProcessing "rina/phillipe/command/Command.java"
 
+startProcessing "rina/phillipe/command/CommandManager.java" md5: e41f718eb4a3f3bb3a882a95df5900b4
+@|rina/phillipe/command/CommandManager.java|8|29|rina.phillipe.command|package|rina.phillipe.command|(file)
+Class Start: rina.phillipe.command.CommandManager
+   @|rina/phillipe/command/CommandManager.java|126|140|CommandManager|class|rina.phillipe.command.CommandManager|false
+   @|rina/phillipe/command/CommandManager.java|172|179|Command|class|rina.phillipe.command.Command|false
+   @|rina/phillipe/command/CommandManager.java|162|171|ArrayList|class|java.util.ArrayList|false
+   @|rina/phillipe/command/CommandManager.java|162|171|ArrayList|class|java.util.ArrayList|false
+   @|rina/phillipe/command/CommandManager.java|172|179|Command|class|rina.phillipe.command.Command|false
+   @|rina/phillipe/command/CommandManager.java|181|189|commands|field|rina.phillipe.command.CommandManager|commands|
+   @|rina/phillipe/command/CommandManager.java|203|204|b|field|rina.phillipe.command.CommandManager|b|
+   Method Start: addCommand(Lrina/phillipe/command/Command;)V
+      @|rina/phillipe/command/CommandManager.java|249|250|c|param|rina.phillipe.command.CommandManager|addCommand|(Lrina/phillipe/command/Command;)V|c|0
+      @|rina/phillipe/command/CommandManager.java|230|240|addCommand|method|rina.phillipe.command.CommandManager|addCommand|(Lrina/phillipe/command/Command;)V
+      @|rina/phillipe/command/CommandManager.java|241|248|Command|class|rina.phillipe.command.Command|false
+      @|rina/phillipe/command/CommandManager.java|262|270|commands|field|rina.phillipe.command.CommandManager|commands
+      @|rina/phillipe/command/CommandManager.java|271|274|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|rina/phillipe/command/CommandManager.java|275|276|c|param|rina.phillipe.command.CommandManager|addCommand|(Lrina/phillipe/command/Command;)V|c|0
+   Method End: addCommand(Lrina/phillipe/command/Command;)V
+   Method Start: getCommands()Ljava/util/ArrayList;
+      @|rina/phillipe/command/CommandManager.java|304|313|ArrayList|class|java.util.ArrayList|false
+      @|rina/phillipe/command/CommandManager.java|314|321|Command|class|rina.phillipe.command.Command|false
+      @|rina/phillipe/command/CommandManager.java|323|334|getCommands|method|rina.phillipe.command.CommandManager|getCommands|()Ljava/util/ArrayList;
+      @|rina/phillipe/command/CommandManager.java|354|362|commands|field|rina.phillipe.command.CommandManager|commands
+   Method End: getCommands()Ljava/util/ArrayList;
+   Method Start: callCommand(Ljava/lang/String;)V
+      @|rina/phillipe/command/CommandManager.java|406|411|input|param|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V|input|0
+      @|rina/phillipe/command/CommandManager.java|387|398|callCommand|method|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V
+      @|rina/phillipe/command/CommandManager.java|399|405|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|423|429|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|440|445|input|param|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V|input|0
+      @|rina/phillipe/command/CommandManager.java|446|451|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|498|504|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|533|539|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|547|552|input|param|rina.phillipe.command.CommandManager|callCommand|(Ljava/lang/String;)V|input|0
+      @|rina/phillipe/command/CommandManager.java|553|562|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|571|577|length|method|java.lang.CharSequence|length|()I
+      @|rina/phillipe/command/CommandManager.java|581|585|trim|method|java.lang.String|trim|()Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|597|598|b|field|rina.phillipe.command.CommandManager|b
+      @|rina/phillipe/command/CommandManager.java|616|624|commands|field|rina.phillipe.command.CommandManager|commands
+      @|rina/phillipe/command/CommandManager.java|625|632|forEach|method|java.lang.Iterable|forEach|(Ljava/util/function/Consumer;)V
+      @|rina/phillipe/command/CommandManager.java|657|663|String|class|java.lang.String|false
+      @|rina/phillipe/command/CommandManager.java|668|669|c|param|java.util.function.Consumer<rina.phillipe.command.Command>|accept|(Lrina/phillipe/command/Command;)V|c|-1
+      @|rina/phillipe/command/CommandManager.java|670|678|getAlias|method|rina.phillipe.command.Command|getAlias|()[Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|706|722|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|rina/phillipe/command/CommandManager.java|755|756|b|field|rina.phillipe.command.CommandManager|b
+      @|rina/phillipe/command/CommandManager.java|815|816|c|param|java.util.function.Consumer<rina.phillipe.command.Command>|accept|(Lrina/phillipe/command/Command;)V|c|-1
+      @|rina/phillipe/command/CommandManager.java|817|826|onCommand|method|rina.phillipe.command.Command|onCommand|(Ljava/lang/String;[Ljava/lang/String;)V
+      @|rina/phillipe/command/CommandManager.java|838|843|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|912|921|Exception|class|java.lang.Exception|false
+      @|rina/phillipe/command/CommandManager.java|951|958|Command|class|rina.phillipe.command.Command|false
+      @|rina/phillipe/command/CommandManager.java|959|976|sentClientMessage|method|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V
+      @|rina/phillipe/command/CommandManager.java|977|991|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/CommandManager.java|992|1000|DARK_RED|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_RED
+      @|rina/phillipe/command/CommandManager.java|1003|1004|c|param|java.util.function.Consumer<rina.phillipe.command.Command>|accept|(Lrina/phillipe/command/Command;)V|c|-1
+      @|rina/phillipe/command/CommandManager.java|1005|1014|getSyntax|method|rina.phillipe.command.Command|getSyntax|()Ljava/lang/String;
+      @|rina/phillipe/command/CommandManager.java|1098|1099|b|field|rina.phillipe.command.CommandManager|b
+      @|rina/phillipe/command/CommandManager.java|1101|1108|Command|class|rina.phillipe.command.Command|false
+      @|rina/phillipe/command/CommandManager.java|1109|1126|sentClientMessage|method|rina.phillipe.command.Command|sentClientMessage|(Ljava/lang/String;)V
+      @|rina/phillipe/command/CommandManager.java|1127|1141|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting|false
+      @|rina/phillipe/command/CommandManager.java|1142|1150|DARK_RED|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_RED
+   Method End: callCommand(Ljava/lang/String;)V
+Class End  : rina.phillipe.command.CommandManager
+endProcessing "rina/phillipe/command/CommandManager.java"
+
 startProcessing "rina/phillipe/event/EventClientManager.java" md5: e68016f02397c6a1871896e6568169bc
 @|rina/phillipe/event/EventClientManager.java|8|27|rina.phillipe.event|package|rina.phillipe.event|(file)
 Class Start: rina.phillipe.event.EventClientManager
@@ -282,7 +346,7 @@ Class Start: rina.phillipe.mixin.MixinLoader
 Class End  : rina.phillipe.mixin.MixinLoader
 endProcessing "rina/phillipe/mixin/MixinLoader.java"
 
-startProcessing "rina/phillipe/modules/Module.java" md5: a72457a5e7b4f6af2b303b65fc82a158
+startProcessing "rina/phillipe/modules/Module.java" md5: 90b30ba6934ad421336eb57c9ca54b00
 @|rina/phillipe/modules/Module.java|8|29|rina.phillipe.modules|package|rina.phillipe.modules|(file)
 Class Start: rina.phillipe.modules.Module
    @|rina/phillipe/modules/Module.java|123|129|Module|class|rina.phillipe.modules.Module|false

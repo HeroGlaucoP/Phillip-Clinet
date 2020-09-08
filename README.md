@@ -10,3 +10,4 @@ de shadow a hero: hero nao quer se sentir sosinho emtao eu tenho que escrever qu
 k
 # Quem nao tem é randomico.
 # quem chora nao tme kkkkkkkkkkkkkkkkkkkkkkkkkkkkk piroquinha mole
+# hero é um deus, rina também

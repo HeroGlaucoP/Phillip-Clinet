@@ -87,5 +87,4 @@ public class Module {
     public void setDescription(String desc) {
         description = desc;
     }
-
 }

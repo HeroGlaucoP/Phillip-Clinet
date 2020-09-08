@@ -1,4 +1,4 @@
-Processing 9 files
+Processing 10 files
 Start Processing: rina/phillipe/PhillipeClient.java
 New Key: class net/minecraftforge/fml/common/Mod
 New Key: class net/minecraftforge/fml/common/Mod
@@ -26,6 +26,11 @@ Import: net.minecraft.client.Minecraft
 Import: net.minecraft.util.text.TextComponentString
 Import: java.awt.*
 End  Processing: rina/phillipe/command/Command.java
+
+Start Processing: rina/phillipe/command/CommandManager.java
+Import: com.mojang.realmsclient.gui.ChatFormatting
+Import: java.util.ArrayList
+End  Processing: rina/phillipe/command/CommandManager.java
 
 Start Processing: rina/phillipe/event/EventClientManager.java
 New Key: class net/minecraftforge/fml/common/gameevent/TickEvent
