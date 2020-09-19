@@ -1,9 +1,2 @@
-# 1pop client
-Client feito por hero e rina.
-Client muito bom.
-Muito foda.
-Muito incrivel.
-Pra rodar é só rodar o build.py ou build-linux.py.
-Se não der certo vai se fuder.
-Agradecimento extremamente especial ao rina por ter feito a base e estar me ensinando a fazer os bagulho.
-# Kappa
+# Phillipe Client
+base pra client
